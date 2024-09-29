@@ -2,26 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    background-color: #061417;
+    color: #fff;
+    font-family: poppins;
+}
+@font-face {
+    font-family: "Clash Display Medium";
+    src: url("https://vickyjay.vercel.app/fonts/clash/ClashDisplay-Medium.otf")
+        format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+.my_fixed_width {
+    width: 83%;
+    max-width: 1200px;
+}
+.gradient_text {
+    background: linear-gradient(to right, #fcfae9, #dfe9fe);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bolder;
+    animation: colorChange 2.8s infinite;
+}
+@keyframes colorChange {
+    0% {
+        background: linear-gradient(to right, #fcfae9, #dfe9fe);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    50% {
+        background: linear-gradient(to right, #dfe9fe, #dfe9fe);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    100% {
+        background: linear-gradient(to right, #dfe9fe, #fcfae9);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+}
+.avatar_container {
+    position: relative;
+    border: 2px solid #34afcb;
+    margin: 35px 0;
+}
+.avatar_pic {
+    width: 280px;
+    border: none;
+    position: relative;
+    top: -10px;
+    left: -10px;
 }
