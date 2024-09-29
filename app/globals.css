@@ -7,6 +7,7 @@ body {
     color: #fff;
     font-family: poppins;
 }
+
 @font-face {
     font-family: "Clash Display Medium";
     src: url("https://vickyjay.vercel.app/fonts/clash/ClashDisplay-Medium.otf")
