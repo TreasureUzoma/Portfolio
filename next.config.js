@@ -2,5 +2,8 @@
 const nextConfig = {}
 
 module.exports = {
-  swcMinify: false, // Disables SWC and uses Babel instead
+  swcMinify: false, 
+  images: {
+    domains: ["treasureuzoma.vercel.app"],
+  }
 };

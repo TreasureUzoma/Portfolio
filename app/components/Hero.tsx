@@ -2,6 +2,7 @@ import InstagramIcon from "./icons/InstagramIcon";
 import FacebookIcon from "./icons/FacebookIcon";
 import TwitterIcon from "./icons/TwitterIcon";
 import LinkedinIcon from "./icons/LinkedinIcon";
+import Image from "next/image"
 
 const Hero = () => {
     return (
@@ -60,8 +61,10 @@ const Hero = () => {
                 </div>
                 <div>
                     <div className="avatar_container inline-block">
-                        <img
+                        <Image
                             src="https://treasureuzoma.vercel.app/images/hero.png"
+                            width="37"
+                            height="37"
                             alt="avatar"
                             className="avatar_pic block"
                         />
