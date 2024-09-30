@@ -2,5 +2,8 @@
 const nextConfig = {}
 
 module.exports = {
-  swcMinify: false
+  swcMinify: false,
+  images: {
+    domains: ["https://infinityswapapp.vercel.app"],
+  }
 };

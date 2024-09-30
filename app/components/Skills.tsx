@@ -64,7 +64,7 @@ const Skills = () => {
                       </div>
                       <div className="w-full flex items-center relative overflow-hidden px-5 p-4 bg-[#0a1c20] block_left">
                         <div>
-                          <p className="text-[0.9rem]">...</p>
+                          <p className="text-[0.9rem]">. . .</p>
                         </div>
                       </div>
                     </div>

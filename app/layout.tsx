@@ -1,9 +1,29 @@
 import { Metadata } from "next";
+
 export const metadata: Metadata = {
     title: "Treasure Uzoma - Portfolio",
     description:
         "3+ years of experience. Specialized in building products, while ensuring a seamless web experience for clients across Africa.",
-    themeColor: "#061417"
+    themeColor: "#061417",
+    keywords: "portfolio, web development, UX/UI design, Treasure Uzoma, Africa, technology",
+    author: "Treasure Uzoma",
+    charset: "UTF-8",
+    viewport: "width=device-width, initial-scale=1.0",
+    robots: "index, follow",
+    icons: {
+        icon: "https://infinityswapapp.vercel.app/me.jpg",
+    },
+    openGraph: {
+        title: "Treasure Uzoma - Portfolio",
+        description: "3+ years of experience in web development.",
+        url: "https://treasureuzoma.netlify.app", 
+        images: [
+            {
+                url: "https://infinityswapapp.vercel.app/me.jpg", 
+                alt: "Treasure Uzoma Portfolio Preview",
+            },
+        ],
+    },
 };
 
 export default function RootLayout({

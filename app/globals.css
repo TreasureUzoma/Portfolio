@@ -115,6 +115,16 @@ body {
     background: #4c5a5d;
     transform: translateX(-50%);
 }
+.timeline-item {
+    position: relative;
+    width: 50%;
+    height: 10rem;
+    display: flex;
+    padding: 20px 10px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
 
 .timeline-item:nth-child(odd) {
     left: 0;
@@ -148,6 +158,7 @@ body {
 .timeline-item:nth-child(4):before {
     background: #34afcb;
 }
+
 .timeline p {
     line-height: 1rem;
 }
