@@ -2,8 +2,5 @@
 const nextConfig = {}
 
 module.exports = {
-  swcMinify: false, 
-  images: {
-    domains: ["treasureuzoma.vercel.app"],
-  },
+  swcMinify: false
 };

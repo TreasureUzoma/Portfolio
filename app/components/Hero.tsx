@@ -2,7 +2,7 @@ import InstagramIcon from "./icons/InstagramIcon";
 import FacebookIcon from "./icons/FacebookIcon";
 import TwitterIcon from "./icons/TwitterIcon";
 import LinkedinIcon from "./icons/LinkedinIcon";
-import Image from "next/image"
+import Image from "next/image";
 
 const Hero = () => {
     return (
@@ -62,9 +62,9 @@ const Hero = () => {
                 <div>
                     <div className="avatar_container inline-block">
                         <Image
-                            src="https://treasureuzoma.vercel.app/images/hero.png"
-                            width="37"
-                            height="37"
+                            src="/images/hero.png"
+                            width={280}
+                            height={280}
                             alt="avatar"
                             className="avatar_pic block"
                         />
@@ -75,8 +75,3 @@ const Hero = () => {
     );
 };
 export default Hero;
-{
-    /*
-  https://www.svgrepo.com/svg/108614/linkedin
-*/
-}
