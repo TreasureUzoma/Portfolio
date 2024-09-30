@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 import "./globals.css";
 
 import Nav from "./components/Nav";
