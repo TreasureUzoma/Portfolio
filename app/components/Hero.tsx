@@ -2,6 +2,7 @@ import InstagramIcon from "./icons/InstagramIcon";
 import FacebookIcon from "./icons/FacebookIcon";
 import TwitterIcon from "./icons/TwitterIcon";
 import LinkedinIcon from "./icons/LinkedinIcon";
+
 import Image from "next/image";
 
 const Hero = () => {
@@ -28,7 +29,7 @@ const Hero = () => {
                             scalability are top objectives on my radar.
                         </p>
                     </div>
-                    <div className="mt-[2rem] flex space-x-4">
+                    <div className="mt-[2rem] flex space-x-5">
                         <a
                             href="https://www.facebook.com/profile.php?id=100085862181551"
                             className="p-1 rounded-full border border-2 border-[#34afcb]"
@@ -41,7 +42,7 @@ const Hero = () => {
                             className="p-1 rounded-full border border-2 border-[#34afcb]"
                             target="_blank"
                         >
-                            <LinkedinIcon />
+                            <LinkedinIcon/>
                         </a>
                         <a
                             href="https://www.twitter.com/TreasureUzoma1"

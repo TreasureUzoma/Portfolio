@@ -2,14 +2,41 @@ const InstagramIcon = () => {
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
-            x="0px"
-            y="0px"
-            width="25"
-            height="25"
-            viewBox="0 0 24 24"
-            className="fill-[#34afcb]"
+            fill="none"
+            viewBox="0 0 48 48"
+            id="Instagram-Logo--Streamline-Plump"
+            height="20"
+            width="20"
         >
-            <path d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z"></path>
+            <desc>
+                Instagram Logo Streamline Icon: https://streamlinehq.com
+            </desc>
+            <g id="instagram-logo">
+                <path
+                    id="Rectangle 1095"
+                    stroke="#34afcb"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M3.26227 35.4675c0.25787 5.121 4.14927 9.0124 9.27023 9.2702C15.5044 44.8874 19.3017 45 24 45s8.4956 -0.1126 11.4675 -0.2623c5.121 -0.2578 9.0123 -4.1492 9.2702 -9.2702C44.8874 32.4956 45 28.6983 45 24s-0.1126 -8.4956 -0.2623 -11.4675c-0.2578 -5.12096 -4.1492 -9.01235 -9.2702 -9.27022C32.4956 3.11262 28.6983 3 24 3s-8.4956 0.11262 -11.4675 0.26227c-5.12096 0.25787 -9.01235 4.14927 -9.27022 9.27023C3.11262 15.5044 3 19.3017 3 24s0.11262 8.4956 0.26227 11.4675Z"
+                    strokeWidth="3"
+                ></path>
+                <path
+                    id="Ellipse 308"
+                    stroke="#34afcb"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M34 24c0 5.5228 -4.4772 10 -10 10s-10 -4.4772 -10 -10 4.4772 -10 10 -10 10 4.4772 10 10Z"
+                    strokeWidth="3"
+                ></path>
+                <path
+                    id="Vector 1499"
+                    stroke="#34afcb"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M36 11h1"
+                    strokeWidth="3"
+                ></path>
+            </g>
         </svg>
     );
 };
