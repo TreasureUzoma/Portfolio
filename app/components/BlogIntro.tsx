@@ -9,13 +9,12 @@ const BlogIntro = () => {
                     </h2>
                     <p className="text-sm text-[#808e91] font-rubik my-3">
                         I write cool stories about tech, lifestyle and general
-                        knowledge
-                        <a
+                        knowledge <a
                             href="https://treasureuzomablog.vercel.app"
                             target="_blank"
                             className="text-[#34afcb] font-bold"
                         >
-                            here.
+                             here.
                         </a>
                     </p>
                 </div>
