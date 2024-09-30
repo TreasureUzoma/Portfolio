@@ -6,7 +6,7 @@ export const metadata: Metadata = {
         "3+ years of experience. Specialized in building products, while ensuring a seamless web experience for clients across Africa.",
     themeColor: "#061417",
     keywords: "portfolio, web development, UX/UI design, Treasure Uzoma, Africa, technology",
-    author: "Treasure Uzoma",
+    authors: "Treasure Uzoma",
     charset: "UTF-8",
     viewport: "width=device-width, initial-scale=1.0",
     robots: "index, follow",
