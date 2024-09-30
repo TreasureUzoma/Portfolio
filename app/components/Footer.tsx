@@ -11,7 +11,7 @@ const Footer = () => {
                         Interested in working together? We should queue up a
                         time to chat. I’ll buy the coffee.
                     </p>
-                    <hr className="my-[2.7rem] border-[#4c5a5d] inline-block w-[75%]" />
+                    <hr className="my-[2.7rem] border-[#4c5a5d] inline-block w-[65%]" />
                     <div className=" flex justify-center items-center flex-col md:space-x-4 md:flex-row md:flex-wrap">
                         <div className="flex justify-center items-center space-x-4 mb-4 md:mb-0">
                             <a

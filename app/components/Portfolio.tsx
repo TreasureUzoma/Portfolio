@@ -4,9 +4,9 @@ const Portfolio = () => {
     const divStyle =
         "min-h-[300px] my-2 flex items-center justify-center px-7 bg-[#0a1c20]";
     const buttonStyle =
-        "bg-white rounded-lg w-full mt-5 py-2 text-sm text-black space-x-3 justify-center text-center font-bold flex items-center";
+        "bg-white rounded-lg w-full mt-5 py-2 text-sm text-black space-x-3 justify-center text-center font-bold flex items-center hover:bg-gray-300";
     const buttonStyleTwo =
-        "bg-white rounded-lg w-[50%] mt-5 py-2 text-sm text-black space-x-3 justify-center text-center font-bold flex items-center";
+        "bg-white rounded-lg w-[50%] mt-5 py-2 text-sm text-black space-x-3 justify-center text-center font-bold flex items-center hover:bg-gray-300";
     const tagsWrapperStyle = "my-[1rem] flex flex-wrap gap-y-3 w-[230px]";
     const pStyle = "text-sm font-rubik text-[#808e91] mt-4";
 

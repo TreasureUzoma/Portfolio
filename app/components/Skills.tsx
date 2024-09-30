@@ -27,7 +27,7 @@ const Skills = () => {
                           <p className="text-[0.9rem]">JavaScript</p>
                         </div>
                       </div>
-                      <div className="w-full flex items-center relative overflow-hidden px-5 p-4 bg-[#0a1c20] block_left">
+                      <div className="w-full flex items-center relative overflow-hidden px-5 p-4 bg-[#0a1c20] block_right">
                         <div>
                           <p className="text-[0.9rem]">Firebase</p>
                         </div>
@@ -37,7 +37,7 @@ const Skills = () => {
                           <p className="text-[0.9rem]">ReactJs</p>
                         </div>
                       </div>
-                      <div className="w-full flex items-center relative overflow-hidden px-5 p-4 bg-[#0a1c20] block_left">
+                      <div className="w-full flex items-center relative overflow-hidden px-5 p-4 bg-[#0a1c20] block_right">
                         <div>
                           <p className="text-[0.9rem]">TailwindCSS</p>
                         </div>
@@ -47,7 +47,7 @@ const Skills = () => {
                           <p className="text-[0.9rem]">Bootstrap</p>
                         </div>
                       </div>
-                      <div className="w-full flex items-center relative overflow-hidden px-5 p-4 bg-[#0a1c20] block_left">
+                      <div className="w-full flex items-center relative overflow-hidden px-5 p-4 bg-[#0a1c20] block_right">
                         <div>
                           <p className="text-[0.9rem]">Git/Github</p>
                         </div>
@@ -57,7 +57,7 @@ const Skills = () => {
                           <p className="text-[0.9rem]">Annimations</p>
                         </div>
                       </div>
-                      <div className="w-full flex items-center relative overflow-hidden px-5 p-4 bg-[#0a1c20] block_left">
+                      <div className="w-full flex items-center relative overflow-hidden px-5 p-4 bg-[#0a1c20] block_right">
                         <div>
                           <p className="text-[0.9rem]">SEO</p>
                         </div>
