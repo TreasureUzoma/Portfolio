@@ -3,20 +3,22 @@ import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 
 const Services = () => {
-    const [visibleStates, setVisibleStates] = useState(Array(6).fill(false)); // Array to track visibility of each service
-    const refs = useRef<HTMLDivElement[]>([]);
+    const [visibleStates, setVisibleStates] = useState(Array(6).fill(false)); // Track visibility of each service
+    const refs = useRef<(HTMLDivElement | null)[]>([]); // Refs for each service block
 
     const pStyle = "text-sm font-rubik text-[#808e91] mt-4 leading-[1.44rem]";
 
+    // Animation variants for each service block
     const itemVariants = {
         hidden: { opacity: 0, y: 20 },
         visible: {
             opacity: 1,
             y: 0,
-            scale: 1.05 // Add a slight scale for the pop effect
+            scale: 1.05 // Pop effect when visible
         }
     };
 
+    // Set up IntersectionObserver to trigger animations when blocks are in view
     useEffect(() => {
         const observers = refs.current.map((ref, index) => {
             const observer = new IntersectionObserver(
@@ -24,26 +26,21 @@ const Services = () => {
                     if (entry.isIntersecting) {
                         setVisibleStates(prev => {
                             const newState = [...prev];
-                            newState[index] = true; // Mark this service as visible
+                            newState[index] = true; // Mark block as visible
                             return newState;
                         });
-                        observer.disconnect();
+                        observer.disconnect(); // Stop observing once visible
                     }
                 },
-                {
-                    threshold: 0.1 // 10 view of the blocks activates the animation
-                }
+                { threshold: 0.1 } // Trigger when 10% of block is in view
             );
 
-            if (ref) {
-                observer.observe(ref);
-            }
-
+            if (ref) observer.observe(ref); // Observe the ref if available
             return observer;
         });
 
         return () => {
-            observers.forEach(observer => observer.disconnect()); // Clean up observers
+            observers.forEach(observer => observer.disconnect()); // Clean up on unmount
         };
     }, []);
 
@@ -56,8 +53,7 @@ const Services = () => {
                         <span className="inline-block animate-bounce">🔥</span>
                     </h2>
                     <p className="text-sm text-[#808e91] font-rubik my-3">
-                        These are some of the services I offer as a frontend web
-                        developer
+                        These are some of the services I offer as a frontend web developer.
                     </p>
                     <div className="grid place-items-center my-5 gap-6 md:grid-cols-3">
                         {[
@@ -100,15 +96,11 @@ const Services = () => {
                         ].map((service, index) => (
                             <motion.div
                                 key={index}
-                               ref={(el) => refs.current[index] = el as HTMLDivElement | null;
-}}
-                                // Assign each block's ref without returning
+                                ref={el => (refs.current[index] = el)} // Assign each block's ref
                                 className={`w-full h-[270px] flex items-center justify-center relative overflow-hidden px-7 bg-[#0a1c20] ${service.className}`}
                                 variants={itemVariants}
                                 initial="hidden"
-                                animate={
-                                    visibleStates[index] ? "visible" : "hidden"
-                                }
+                                animate={visibleStates[index] ? "visible" : "hidden"}
                                 transition={{
                                     duration: 0.5,
                                     delay: index * 0.1,
@@ -134,3 +126,4 @@ const Services = () => {
 };
 
 export default Services;
+                    
