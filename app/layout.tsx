@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     keywords: "portfolio, web development, UX/UI design, Treasure Uzoma, Africa, technology",
     robots: "index, follow",
     icons: {
-        icon: "https://infinityswapapp.vercel.app/me.jpg",
+        icon: "/images/favicon.ico",
     },
     openGraph: {
         title: "Treasure Uzoma - Portfolio",
