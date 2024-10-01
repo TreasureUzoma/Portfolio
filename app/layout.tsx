@@ -31,6 +31,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <head>
+                <meta name="google-site-verification" content="ZuNx7mDeY7yQfX8ZKLR4FBsXcFZPFWzbXILnaAGmdMo" />
                 <link
                     rel="stylesheet"
                     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
@@ -45,7 +46,7 @@ export default function RootLayout({
                 />
                 <link
                     rel="stylesheet"
-                    href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+                    href="https://fons.googleapis.com/css2?family=Rubik&display=swap"
                 />
                 <link
                     rel="stylesheet"
