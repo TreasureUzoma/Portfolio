@@ -16,7 +16,7 @@ export const metadata: Metadata = {
         url: "https://treasureuzoma.netlify.app", 
         images: [
             {
-                url: "https://infinityswapapp.vercel.app/me.jpg", 
+                url: "/images/favicon.ico", 
                 alt: "Treasure Uzoma Portfolio Preview",
             },
         ],
