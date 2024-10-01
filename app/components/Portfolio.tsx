@@ -8,7 +8,7 @@ const Portfolio = () => {
     const buttonStyleTwo =
         "bg-white rounded-lg w-[50%] mt-5 py-2 text-sm text-black space-x-3 justify-center text-center font-bold flex items-center hover:bg-gray-400";
     const tagsWrapperStyle = "my-[1rem] flex flex-wrap gap-y-3 w-[230px]";
-    const pStyle = "text-sm font-rubik text-[#808e91] mt-4";
+    const pStyle = "text-sm font-rubik text-[#808e91] leading-[1.4rem] mt-4";
 
     return (
         <section>
@@ -186,7 +186,7 @@ const Portfolio = () => {
 
                                 <div>
                                     <a
-                                        href="https://secretsenderapp.vercel.app"
+                                        href="https://streakmasterapp.vercel.app"
                                         className={buttonStyle}
                                     >
                                         <span>Preview</span>
@@ -286,7 +286,7 @@ const Portfolio = () => {
                                         </span>
                                     </a>
                                     <a
-                                        href="https://github.com/TreasureUzoma/"
+                                        href="https://github.com/TreasureUzoma/GitHubRoast"
                                         className={buttonStyleTwo}
                                     >
                                         <i className="!text-[1rem] fa-brands fa-github"></i>
@@ -383,7 +383,7 @@ const Portfolio = () => {
                                         </span>
                                     </a>
                                     <a
-                                        href="https://github.com/TreasureUzoma/passwordgenerator/"
+                                        href="https://github.com/TreasureUzoma/password-generator/"
                                         className={buttonStyleTwo}
                                     >
                                         <i className="!text-[1rem] fa-brands fa-github"></i>
