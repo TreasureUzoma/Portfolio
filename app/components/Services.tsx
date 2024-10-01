@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 
 const Services = () => {
     const [visibleStates, setVisibleStates] = useState(Array(6).fill(false)); // Array to track visibility of each service
-    const refs = userRef<HTMLDivElement[]>([]);
+    const refs = useRef<HTMLDivElement[]>([]);
 
     const pStyle = "text-sm font-rubik text-[#808e91] mt-4 leading-[1.44rem]";
 
