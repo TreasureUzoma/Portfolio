@@ -100,9 +100,9 @@ const Services = () => {
                         ].map((service, index) => (
                             <motion.div
                                 key={index}
-                                ref={el => {
-                                    refs.current[index] = el;
-                                }} // Assign each block's ref without returning
+                               ref={(el) => refs.current[index] = el as HTMLDivElement | null;
+}}
+                                // Assign each block's ref without returning
                                 className={`w-full h-[270px] flex items-center justify-center relative overflow-hidden px-7 bg-[#0a1c20] ${service.className}`}
                                 variants={itemVariants}
                                 initial="hidden"
