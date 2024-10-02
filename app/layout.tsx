@@ -46,7 +46,7 @@ export default function RootLayout({
                 />
                 <link
                     rel="stylesheet"
-                    href="https://fons.googleapis.com/css2?family=Rubik&display=swap"
+                    href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
                 />
                 <link
                     rel="stylesheet"
