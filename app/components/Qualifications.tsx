@@ -7,6 +7,8 @@ const Qualifications = () => {
     const toggleSection = () => {
         setShowEducation(prev => !prev);
     };
+    const titleStyle = "font-bold text-lg leading-[1.46rem]";
+    const itemStyle = "font-rubik text-[#808e91] mt-3 text-sm";
 
     return (
         <section>
@@ -50,12 +52,8 @@ const Qualifications = () => {
                     >
                         <li className="timeline-item">
                             <div>
-                                <p className="font-bold text-lg leading-[1.35rem]">
-                                    Computer Science
-                                </p>
-                                <p className="font-rubik text-[#808e91] mt-3 text-sm">
-                                    Lasustech, Nigeria
-                                </p>
+                                <p className={titleStyle}>Computer Science</p>
+                                <p className={itemStyle}>Lasustech, Nigeria</p>
                                 <p className="text-sm text-[#808e91] font-rubik mt-3">
                                     <i className="material-icons">event</i> 2024
                                     till date
@@ -64,13 +62,11 @@ const Qualifications = () => {
                         </li>
                         <li className="timeline-item">
                             <div>
-                                <p className="font-bold text-lg leading-[1.35rem]">
+                                <p className={titleStyle}>
                                     Frontend Development
                                 </p>
-                                <p className="font-rubik text-[#808e91] mt-3 text-sm">
-                                    Sololearn
-                                </p>
-                                <p className="font-rubik text-[#808e91] mt-3 text-sm">
+                                <p className={itemStyle}>Sololearn</p>
+                                <p className={itemStyle}>
                                     <i className="material-icons">event</i> 2021
                                     - 2022
                                 </p>
@@ -78,13 +74,11 @@ const Qualifications = () => {
                         </li>
                         <li className="timeline-item">
                             <div>
-                                <p className="font-bold text-lg leading-[1.35rem]">
+                                <p className={titleStyle}>
                                     Frontend Development
                                 </p>
-                                <p className="font-rubik text-[#808e91] mt-3 text-sm">
-                                    Programming Hero
-                                </p>
-                                <p className="font-rubik text-[#808e91] mt-3 text-sm">
+                                <p className={itemStyle}>Programming Hero</p>
+                                <p className={itemStyle}>
                                     <i className="material-icons">event</i> 2020
                                     - 2021
                                 </p>
@@ -92,13 +86,9 @@ const Qualifications = () => {
                         </li>
                         <li className="timeline-item">
                             <div>
-                                <p className="font-bold text-lg leading-[1.35rem]">
-                                    Web Development
-                                </p>
-                                <p className="font-rubik text-[#808e91] mt-3 text-sm">
-                                    W3schools
-                                </p>
-                                <p className="font-rubik text-[#808e91] mt-3 text-sm">
+                                <p className={titleStyle}>Web Development</p>
+                                <p className={itemStyle}>W3schools</p>
+                                <p className={itemStyle}>
                                     <i className="material-icons">event</i> 2020
                                     till date
                                 </p>
@@ -112,37 +102,27 @@ const Qualifications = () => {
                     >
                         <li className="timeline-item">
                             <div>
-                                <p className="font-bold text-lg leading-[1.35rem]">
-                                    Software Engineer
-                                </p>
-                                <p className="font-rubik text-[#808e91] mt-3 text-sm">
-                                    InfinitySwap
-                                </p>
-                                <p className="font-rubik text-[#808e91] mt-3 text-sm">
+                                <p className={titleStyle}>Software Engineer</p>
+                                <p className={itemStyle}>InfinitySwap</p>
+                                <p className={itemStyle}>
                                     <i className="material-icons">event</i> 2024
                                 </p>
                             </div>
                         </li>
                         <li className="timeline-item">
                             <div>
-                                <p className="font-bold text-lg leading-[1.35rem]">
-                                    Frontend Developer
-                                </p>
-                                <p className="font-rubik text-[#808e91] mt-3 text-sm">
-                                    Gappay NG
-                                </p>
-                                <p className="font-rubik text-[#808e91] mt-3 text-sm">
+                                <p className={titleStyle}>Frontend Developer</p>
+                                <p className={itemStyle}>Gappay NG</p>
+                                <p className={itemStyle}>
                                     <i className="material-icons">event</i> 2024
                                 </p>
                             </div>
                         </li>
                         <li className="timeline-item">
                             <div>
-                                <p className="font-bold text-lg leading-[1.35rem]">
-                                    Frontend Developer
-                                </p>
-                                <p className="font-rubik text-[#808e91] mt-3 text-sm">Code Byte Agency</p>
-                                <p className="font-rubik text-[#808e91] mt-3 text-sm">
+                                <p className={titleStyle}>Frontend Developer</p>
+                                <p className={itemStyle}>Code Byte Agency</p>
+                                <p className={itemStyle}>
                                     <i className="material-icons">event</i> 2023
                                     till date
                                 </p>
