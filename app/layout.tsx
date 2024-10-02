@@ -7,17 +7,17 @@ export const metadata: Metadata = {
     themeColor: "#061417",
     keywords: "Portfolio, Web Development, UX/UI design, Treasure Uzoma, TreasureUzoma, Frontend Developer, treasureuzoma, Treasure Dev, Treasure Uzoma Front-End Developer, Treasure Uzoma Programmer, Nigeria Programmer",
     robots: "index, follow",
-    icons: {
-        icon: "/images/favicon.ico",
-        appleTouchIcon: "/images/favicon.ico",
-    },
+    icons: [
+        { rel: "icon", url: "/images/favicon.ico" }, 
+        { rel: "apple-touch-icon", url: "/images/favicon.ico" },
+    ],
     openGraph: {
         title: "Treasure Uzoma - Portfolio",
         description: "3+ years of experience in web development.",
         url: "https://treasureuzoma.netlify.app", 
         images: [
             {
-                url: "/images/343ppm.jpg", 
+                url: "https://treasureuzoma.netlify.app/images/343ppm.jpg", 
                 alt: "Treasure Uzoma Portfolio Preview",
             },
         ],
