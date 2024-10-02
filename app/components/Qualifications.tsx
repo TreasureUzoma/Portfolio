@@ -7,7 +7,7 @@ const Qualifications = () => {
     const toggleSection = () => {
         setShowEducation(prev => !prev);
     };
-    const titleStyle = "font-bold text-lg leading-[1.46rem]";
+    const titleStyle = "font-bold text-lg !leading-[1.5rem]";
     const itemStyle = "font-rubik text-[#808e91] mt-3 text-sm";
 
     return (

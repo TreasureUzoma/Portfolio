@@ -8,7 +8,7 @@ const Portfolio = () => {
     const buttonStyleTwo =
         "bg-white rounded-lg w-[50%] mt-5 py-2 text-sm text-black space-x-3 justify-center text-center font-bold flex items-center hover:bg-gray-400";
     const tagsWrapperStyle = "my-[1rem] flex flex-wrap gap-y-3 w-[230px]";
-    const pStyle = "text-sm font-rubik text-[#808e91] leading-[1.4rem] mt-4";
+    const pStyle = "text-sm font-rubik text-[#808e91] leading-[1.4rem] mt-2";
 
     return (
         <section>
