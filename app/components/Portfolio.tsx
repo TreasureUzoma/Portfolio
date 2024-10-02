@@ -25,9 +25,9 @@ const Portfolio = () => {
                     <div className="grid place-items-center my-5 gap-5 md:grid-cols-3">
                         <div className={divStyle}>
                             <div>
-                                <h3 className="text-xl text-white">
+                                <p className="text-xl text-white">
                                     GapPay Website
-                                </h3>
+                                </p>
                                 <p className={pStyle}>
                                     A fintech landing page for a platform that
                                     simplifies transactions.
@@ -41,6 +41,8 @@ const Portfolio = () => {
                                     <a
                                         href="https://gappaywebsite.onrender.com"
                                         className={buttonStyle}
+                                        rel="nofollow"
+                                        target="_blank"
                                     >
                                         <span>Preview</span>
                                         <span className="!text-[0.9rem] material-symbols-outlined">
@@ -52,9 +54,9 @@ const Portfolio = () => {
                         </div>
                         <div className={divStyle}>
                             <div>
-                                <h3 className="text-xl text-white">
+                                <p className="text-xl text-white">
                                     SecretSender
-                                </h3>
+                                </p>
                                 <p className={pStyle}>
                                     A landing page for a web app for sending
                                     anonymous messages.
@@ -76,6 +78,8 @@ const Portfolio = () => {
                                     <a
                                         href="https://secretsenderweb.vercel.app/"
                                         className={buttonStyle}
+                                        rel="nofollow"
+                                        target="_blank"
                                     >
                                         <span>Preview</span>
                                         <span className="!text-[0.9rem] material-symbols-outlined">
@@ -85,6 +89,7 @@ const Portfolio = () => {
                                     <a
                                         href="https://github.com/TreasureUzoma/secretsenderweb/"
                                         className={buttonStyleTwo}
+                                        target="_blank"
                                     >
                                         <i className="!text-[1rem] fa-brands fa-github"></i>
                                     </a>
@@ -93,13 +98,14 @@ const Portfolio = () => {
                         </div>
                         <div className={divStyle}>
                             <div>
-                                <h3 className="text-xl text-white">
+                                <p className="text-xl text-white">
                                     SecretSender PWA
-                                </h3>
+                                </p>
                                 <p className={pStyle}>
                                     A fun mobile-responsive web app that allows
                                     users send anonymous messages just like ngl.
-                                </p>                                <div className={tagsWrapperStyle}>
+                                </p>{" "}
+                                <div className={tagsWrapperStyle}>
                                     <span className={tagStyle}>ReactJs</span>
                                     <span className="px-3">•</span>
                                     <span className={tagStyle}>JavaScript</span>
@@ -108,15 +114,14 @@ const Portfolio = () => {
                                         TailwindCSS
                                     </span>
                                     <span className="px-3">•</span>
-                                    <span className={tagStyle}>
-                                        Firebase
-                                    </span>
+                                    <span className={tagStyle}>Firebase</span>
                                 </div>
-
                                 <div>
                                     <a
                                         href="https://secretsenderapp.vercel.app"
                                         className={buttonStyle}
+                                        rel="nofollow"
+                                        target="_blank"
                                     >
                                         <span>Preview</span>
                                         <span className="!text-[0.9rem] material-symbols-outlined">
@@ -128,11 +133,11 @@ const Portfolio = () => {
                         </div>
                         <div className={divStyle}>
                             <div>
-                                <h3 className="text-xl text-white">
+                                <p className="text-xl text-white">
                                     StreakMaster
-                                </h3>
+                                </p>
                                 <p className={pStyle}>
-                                  Landing page for a habit tracker PWA app.
+                                    Landing page for a habit tracker PWA app.
                                 </p>
                                 <div className={tagsWrapperStyle}>
                                     <span className={tagStyle}>ReactJs</span>
@@ -147,6 +152,8 @@ const Portfolio = () => {
                                     <a
                                         href="https://streakmastersite.vercel.app/"
                                         className={buttonStyle}
+                                        rel="nofollow"
+                                        target="_blank"
                                     >
                                         <span>Preview</span>
                                         <span className="!text-[0.9rem] material-symbols-outlined">
@@ -156,6 +163,7 @@ const Portfolio = () => {
                                     <a
                                         href="https://github.com/TreasureUzoma/secretsenderweb/"
                                         className={buttonStyleTwo}
+                                        target="_blank"
                                     >
                                         <i className="!text-[1rem] fa-brands fa-github"></i>
                                     </a>
@@ -164,13 +172,14 @@ const Portfolio = () => {
                         </div>
                         <div className={divStyle}>
                             <div className="py-5">
-                                <h3 className="text-xl text-white">
+                                <p className="text-xl text-white">
                                     StreakMaster PWA
-                                </h3>
-                                <p className={pStyle}>A cloud based web app for
-                            tracking habits, creating streaks and monitoring
-                            progress
-                                </p>                                <div className={tagsWrapperStyle}>
+                                </p>
+                                <p className={pStyle}>
+                                    A cloud based web app for tracking habits,
+                                    creating streaks and monitoring progress
+                                </p>{" "}
+                                <div className={tagsWrapperStyle}>
                                     <span className={tagStyle}>ReactJs</span>
                                     <span className="px-3">•</span>
                                     <span className={tagStyle}>JavaScript</span>
@@ -179,15 +188,14 @@ const Portfolio = () => {
                                         TailwindCSS
                                     </span>
                                     <span className="px-3">•</span>
-                                    <span className={tagStyle}>
-                                        Firebase
-                                    </span>
+                                    <span className={tagStyle}>Firebase</span>
                                 </div>
-
                                 <div>
                                     <a
                                         href="https://streakmasterapp.vercel.app"
                                         className={buttonStyle}
+                                        rel="nofollow"
+                                        target="_blank"
                                     >
                                         <span>Preview</span>
                                         <span className="!text-[0.9rem] material-symbols-outlined">
@@ -199,24 +207,26 @@ const Portfolio = () => {
                         </div>
                         <div className={divStyle}>
                             <div>
-                                <h3 className="text-xl text-white">
-                                    Paddy AI
-                                </h3>                                <p className={pStyle}>A friendly AI assistant powered by Google’s Gemini
-                                </p>                                <div className={tagsWrapperStyle}>
+                                <p className="text-xl text-white">Paddy AI</p>{" "}
+                                <p className={pStyle}>
+                                    A friendly AI assistant powered by Google’s
+                                    Gemini
+                                </p>{" "}
+                                <div className={tagsWrapperStyle}>
                                     <span className={tagStyle}>JavaScript</span>
                                     <span className="px-3">•</span>
-                                    <span className={tagStyle}>TailwindCSS</span>
-                                    <span className="px-3">•</span>
                                     <span className={tagStyle}>
-                                        Gemeni API
+                                        TailwindCSS
                                     </span>
+                                    <span className="px-3">•</span>
+                                    <span className={tagStyle}>Gemeni API</span>
                                 </div>
-
                                 <div>
                                     <a
                                         href="https://paddyai.vercel.app/"
-                     target="_blank"
-                     className={buttonStyle}
+                                        target="_blank"
+                                        className={buttonStyle}
+                                        rel="nofollow"
                                     >
                                         <span>Preview</span>
                                         <span className="!text-[0.9rem] material-symbols-outlined">
@@ -228,25 +238,26 @@ const Portfolio = () => {
                         </div>
                         <div className={divStyle}>
                             <div>
-                                <h3 className="text-xl text-white">
+                                <p className="text-xl text-white">
                                     LinkLite - Link Shortener
-                                </h3>                                <p className={pStyle}>Convert’s long
-                            cumbersome links to shorter links.
-                                </p>                                <div className={tagsWrapperStyle}>
+                                </p>{" "}
+                                <p className={pStyle}>
+                                    Convert’s long cumbersome links to shorter
+                                    links.
+                                </p>{" "}
+                                <div className={tagsWrapperStyle}>
                                     <span className={tagStyle}>JavaScript</span>
                                     <span className="px-3">•</span>
                                     <span className={tagStyle}>TinyUrlAPI</span>
                                     <span className="px-3">•</span>
-                                    <span className={tagStyle}>
-                                        CSS
-                                    </span>
+                                    <span className={tagStyle}>CSS</span>
                                 </div>
-
                                 <div>
                                     <a
                                         href="https://linklite-theta.vercel.app/"
-                     target="_blank"
-                     className={buttonStyle}
+                                        target="_blank"
+                                        className={buttonStyle}
+                                        rel="nofollow"
                                     >
                                         <span>Preview</span>
                                         <span className="!text-[0.9rem] material-symbols-outlined">
@@ -258,10 +269,14 @@ const Portfolio = () => {
                         </div>
                         <div className={divStyle}>
                             <div>
-                                <h3 className="text-xl text-white">
+                                <p className="text-xl text-white">
                                     GitHub Roast AI
-                                </h3>                                <p className={pStyle}>A websites that roasts gitHub profiles using AI.
-                                </p>                                <div className={tagsWrapperStyle}>
+                                </p>{" "}
+                                <p className={pStyle}>
+                                    A websites that roasts gitHub profiles using
+                                    AI.
+                                </p>{" "}
+                                <div className={tagsWrapperStyle}>
                                     <span className={tagStyle}>JavaScript</span>
                                     <span className="px-3">•</span>
                                     <span className={tagStyle}>GithubAPI</span>
@@ -270,15 +285,14 @@ const Portfolio = () => {
                                         TailwindcssCSS
                                     </span>
                                     <span className="px-3">•</span>
-                                    <span className={tagStyle}>
-                                        ReactJs
-                                    </span>
+                                    <span className={tagStyle}>ReactJs</span>
                                 </div>
                                 <div className="flex justify-center items-center gap-3">
                                     <a
                                         href="https://github-profile-roast.vercel.app/"
-                    target="_blank"
-                          className={buttonStyle}
+                                        target="_blank"
+                                        className={buttonStyle}
+                                        rel="nofollow"
                                     >
                                         <span>Preview</span>
                                         <span className="!text-[0.9rem] material-symbols-outlined">
@@ -287,35 +301,36 @@ const Portfolio = () => {
                                     </a>
                                     <a
                                         href="https://github.com/TreasureUzoma/GitHubRoast"
+                                        target="_blank"
                                         className={buttonStyleTwo}
                                     >
                                         <i className="!text-[1rem] fa-brands fa-github"></i>
                                     </a>
                                 </div>
-
                             </div>
                         </div>
                         <div className={divStyle}>
                             <div>
-                                <h3 className="text-xl text-white">
+                                <p className="text-xl text-white">
                                     Recipe Chat Bot
-                                </h3>                                <p className={pStyle}>Chatbot for giving recipe and preparation
-                            instructions for over 1000 different food
-                                </p>                                <div className={tagsWrapperStyle}>
+                                </p>{" "}
+                                <p className={pStyle}>
+                                    Chatbot for giving recipe and preparation
+                                    instructions for over 1000 different food
+                                </p>{" "}
+                                <div className={tagsWrapperStyle}>
                                     <span className={tagStyle}>JavaScript</span>
                                     <span className="px-3">•</span>
                                     <span className={tagStyle}>API</span>
                                     <span className="px-3">•</span>
-                                    <span className={tagStyle}>
-                                        CSS
-                                    </span>
+                                    <span className={tagStyle}>CSS</span>
                                 </div>
-
                                 <div>
                                     <a
                                         href="https://dreamforge-eta.vercel.app"
-                     target="_blank"
-                     className={buttonStyle}
+                                        target="_blank"
+                                        className={buttonStyle}
+                                        rel="nofollow"
                                     >
                                         <span>Preview</span>
                                         <span className="!text-[0.9rem] material-symbols-outlined">
@@ -327,24 +342,25 @@ const Portfolio = () => {
                         </div>
                         <div className={divStyle}>
                             <div>
-                                <h3 className="text-xl text-white">
-                                    Code Byte
-                                </h3>                                <p className={pStyle}>A web design agency portfolio
-                                </p>                                <div className={tagsWrapperStyle}>
+                                <p className="text-xl text-white">Code Byte</p>{" "}
+                                <p className={pStyle}>
+                                    A web design agency portfolio
+                                </p>{" "}
+                                <div className={tagsWrapperStyle}>
                                     <span className={tagStyle}>JavaScript</span>
                                     <span className="px-3">•</span>
-                                    <span className={tagStyle}>FirebaseAPI</span>
-                                    <span className="px-3">•</span>
                                     <span className={tagStyle}>
-                                        CSS
+                                        FirebaseAPI
                                     </span>
+                                    <span className="px-3">•</span>
+                                    <span className={tagStyle}>CSS</span>
                                 </div>
-
                                 <div>
                                     <a
                                         href="https://codebytehq.web.app"
-                     target="_blank"
-                     className={buttonStyle}
+                                        target="_blank"
+                                        className={buttonStyle}
+                                        rel="nofollow"
                                     >
                                         <span>Preview</span>
                                         <span className="!text-[0.9rem] material-symbols-outlined">
@@ -356,11 +372,12 @@ const Portfolio = () => {
                         </div>
                         <div className={divStyle}>
                             <div>
-                                <h3 className="text-xl text-white">
+                                <p className="text-xl text-white">
                                     Password Generator
-                                </h3>
-                                <p className={pStyle}>A website that generates easy to remember passwords
-
+                                </p>
+                                <p className={pStyle}>
+                                    A website that generates easy to remember
+                                    passwords
                                 </p>
                                 <div className={tagsWrapperStyle}>
                                     <span className={tagStyle}>ReactJs</span>
@@ -374,8 +391,9 @@ const Portfolio = () => {
                                 <div className="flex justify-center items-center gap-3">
                                     <a
                                         href="https://password-generator-iota-seven-45.vercel.app/"
-                     target="_blank"
+                                        target="_blank"
                                         className={buttonStyle}
+                                        rel="nofollow"
                                     >
                                         <span>Preview</span>
                                         <span className="!text-[0.9rem] material-symbols-outlined">
@@ -393,26 +411,25 @@ const Portfolio = () => {
                         </div>
                         <div className={divStyle}>
                             <div>
-                                <h3 className="text-xl text-white">
+                                <p className="text-xl text-white">
                                     Jokes Generator
-                                </h3>
-                                <p className={pStyle}>A website that generates random dry jokes
-
+                                </p>
+                                <p className={pStyle}>
+                                    A website that generates random dry jokes
                                 </p>
                                 <div className={tagsWrapperStyle}>
                                     <span className={tagStyle}>JokeAPI</span>
                                     <span className="px-3">•</span>
                                     <span className={tagStyle}>JavaScript</span>
                                     <span className="px-3">•</span>
-                                    <span className={tagStyle}>
-                                        CSS
-                                    </span>
+                                    <span className={tagStyle}>CSS</span>
                                 </div>
                                 <div className="flex justify-center items-center gap-3">
                                     <a
                                         href="https://jokegenerator.onrender.com/"
-                     target="_blank"
+                                        target="_blank"
                                         className={buttonStyle}
+                                        rel="nofollow"
                                     >
                                         <span>Preview</span>
                                         <span className="!text-[0.9rem] material-symbols-outlined">
@@ -421,15 +438,14 @@ const Portfolio = () => {
                                     </a>
                                     <a
                                         href="https://github.com/TreasureUzoma/passwordgenerator/"
-                   target="_blank"
-                      className={buttonStyleTwo}
+                                        target="_blank"
+                                        className={buttonStyleTwo}
                                     >
                                         <i className="!text-[1rem] fa-brands fa-github"></i>
                                     </a>
                                 </div>
                             </div>
                         </div>
-                        
                     </div>
                 </div>
             </div>

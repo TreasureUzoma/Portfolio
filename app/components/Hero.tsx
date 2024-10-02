@@ -18,7 +18,7 @@ const Hero = () => {
                             I code and design simple beautiful things, and I
                             love what I do.
                         </p>
-                        <p className="gradient_text py-5">
+                        <p className="gradient_text py-[1.8rem]">
                             3+ years of experience. Specialized in building
                             products, while ensuring a seamless web experience
                             for clients across Africa.
