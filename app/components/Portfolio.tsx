@@ -104,7 +104,7 @@ const Portfolio = () => {
                                 <p className={pStyle}>
                                     A fun mobile-responsive web app that allows
                                     users send anonymous messages just like ngl.
-                                </p>{" "}
+                                </p>
                                 <div className={tagsWrapperStyle}>
                                     <span className={tagStyle}>ReactJs</span>
                                     <span className="px-3">•</span>
@@ -178,7 +178,7 @@ const Portfolio = () => {
                                 <p className={pStyle}>
                                     A cloud based web app for tracking habits,
                                     creating streaks and monitoring progress
-                                </p>{" "}
+                                </p>
                                 <div className={tagsWrapperStyle}>
                                     <span className={tagStyle}>ReactJs</span>
                                     <span className="px-3">•</span>
@@ -207,11 +207,11 @@ const Portfolio = () => {
                         </div>
                         <div className={divStyle}>
                             <div>
-                                <p className="text-xl text-white">Paddy AI</p>{" "}
+                                <p className="text-xl text-white">Paddy AI</p>
                                 <p className={pStyle}>
                                     A friendly AI assistant powered by Google’s
                                     Gemini
-                                </p>{" "}
+                                </p>
                                 <div className={tagsWrapperStyle}>
                                     <span className={tagStyle}>JavaScript</span>
                                     <span className="px-3">•</span>
@@ -240,11 +240,11 @@ const Portfolio = () => {
                             <div>
                                 <p className="text-xl text-white">
                                     LinkLite - Link Shortener
-                                </p>{" "}
+                                </p>
                                 <p className={pStyle}>
                                     Convert’s long cumbersome links to shorter
                                     links.
-                                </p>{" "}
+                                </p>
                                 <div className={tagsWrapperStyle}>
                                     <span className={tagStyle}>JavaScript</span>
                                     <span className="px-3">•</span>
@@ -271,11 +271,11 @@ const Portfolio = () => {
                             <div>
                                 <p className="text-xl text-white">
                                     GitHub Roast AI
-                                </p>{" "}
+                                </p>
                                 <p className={pStyle}>
                                     A websites that roasts gitHub profiles using
                                     AI.
-                                </p>{" "}
+                                </p>
                                 <div className={tagsWrapperStyle}>
                                     <span className={tagStyle}>JavaScript</span>
                                     <span className="px-3">•</span>
@@ -313,11 +313,11 @@ const Portfolio = () => {
                             <div>
                                 <p className="text-xl text-white">
                                     Recipe Chat Bot
-                                </p>{" "}
+                                </p>
                                 <p className={pStyle}>
                                     Chatbot for giving recipe and preparation
                                     instructions for over 1000 different food
-                                </p>{" "}
+                                </p>
                                 <div className={tagsWrapperStyle}>
                                     <span className={tagStyle}>JavaScript</span>
                                     <span className="px-3">•</span>
@@ -342,10 +342,10 @@ const Portfolio = () => {
                         </div>
                         <div className={divStyle}>
                             <div>
-                                <p className="text-xl text-white">Code Byte</p>{" "}
+                                <p className="text-xl text-white">Code Byte</p>
                                 <p className={pStyle}>
                                     A web design agency portfolio
-                                </p>{" "}
+                                </p>
                                 <div className={tagsWrapperStyle}>
                                     <span className={tagStyle}>JavaScript</span>
                                     <span className="px-3">•</span>
