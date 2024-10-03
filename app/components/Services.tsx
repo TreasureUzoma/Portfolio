@@ -55,7 +55,7 @@ const Services = () => {
                     <p className="text-sm text-[#808e91] font-rubik my-3">
                         These are some of the services I offer as a frontend web developer.
                     </p>
-                    <div className="grid place-items-center my-5 gap-6 md:grid-cols-3">
+                    <div className="grid place-items-center my-5 gap-6 md:grid-cols-3 md:gap-8">
                         {[
                             {
                                 title: "WEB DEVELOPMENT",

@@ -7,9 +7,9 @@ import Image from "next/image";
 
 const Hero = () => {
     return (
-        <header className="my-[5.4rem] flex items-center justify-center min-h-screen relative overflow-hidden w-full">
+        <header className="my-[5.4rem] flex items-center justify-center min-h-screen relative overflow-hidden w-full md:mt-0 md:mb-[5rem]">
             <div className="my_fixed_width px-3 md:flex justify-between items-center">
-                <div className="md:w-[60%]">
+                <div className="md:w-[52%] lg:w-[60%]">
                     <h1 className="gradient_text text-[2.1rem] font-clash leading-[2.5rem]">
                         Creative Frontend Developer.
                     </h1>
@@ -60,7 +60,7 @@ const Hero = () => {
                         </a>
                     </div>
                 </div>
-                <div>
+                <div className="flex justify-center">
                     <div className="avatar_container inline-block">
                         <Image
                             src="/images/hero.png"
