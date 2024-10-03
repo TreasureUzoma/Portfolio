@@ -5,7 +5,7 @@ export const metadata: Metadata = {
     description:
         "3+ years of experience. Specialized in building products, while ensuring a seamless web experience for clients across Africa.",
     themeColor: "#061417",
-    keywords: "Portfolio, Web Development, UX/UI design, Treasure Uzoma, TreasureUzoma, Frontend Developer, treasureuzoma, Treasure Dev, Treasure Uzoma Front-End Developer, Treasure Uzoma Programmer, Nigeria Programmer",
+    keywords: "Treasure Uzoma, Portfolio, Web Developer, TreasureUzoma, Frontend Developer, treasureuzoma, Treasure Dev, Treasure Uzoma Front-End Developer, Treasure Uzoma Programmer, Nigeria Programmer, Treasure Uzoma Portfolio",
     robots: "index, follow",
     icons: [
         { rel: "icon", url: "/images/favicon.ico" }, 
