@@ -1,4 +1,5 @@
 const Footer = () => {
+    const iconStyle = "rounded-full border border-1 border-[#0a1c20] px-4 p-3 text-sm bg-[#0a1c20] text-[#34afcb] hover:border-[#34afcb] hover:bg-[#34afcb] hover:text-[#0a1c20]";
     return (
         <footer>
             <div className="flex justify-center py-3 font-rubik">
@@ -16,19 +17,19 @@ const Footer = () => {
                         <div className="flex justify-center items-center space-x-4 mb-4 md:mb-0">
                             <a
                                 href="https://www.facebook.com/profile.php?id=100085862181551"
-                                className="rounded-full border border-1 border-[#4c5a5d] px-4 p-3 text-sm text-[#4c5a5d]"
+                                className={iconStyle}
                             >
                                 <i className="fab fa-facebook"></i>
                             </a>
                             <a
                                 href="https://twitter.com/TreasureUzoma1"
-                                className="rounded-full border border-1 border-[#4c5a5d] px-4 p-3 text-sm text-[#4c5a5d]"
+                                className={iconStyle}
                             >
                                 <i className="fab fa-twitter"></i>
                             </a>
                             <a
                                 href="https://www.instagram.com/naira_jasper"
-                                className="rounded-full border border-1 border-[#4c5a5d] px-4 p-3 text-sm text-[#4c5a5d]"
+                                className={iconStyle}
                             >
                                 <i className="fab fa-instagram"></i>
                             </a>
@@ -36,19 +37,19 @@ const Footer = () => {
                         <div className="flex justify-center items-center space-x-4">
                             <a
                                 href="https://www.github.com/TreasureUzoma"
-                                className="rounded-full border border-1 border-[#4c5a5d] px-4 p-3 text-sm text-[#4c5a5d]"
+                                className={iconStyle}
                             >
                                 <i className="fab fa-github"></i>
                             </a>
                             <a
                                 href="https://wa.me/+2349133354993"
-                                className="rounded-full border border-1 border-[#4c5a5d] px-4 p-3 text-sm text-[#4c5a5d]"
+                                className={iconStyle}
                             >
                                 <i className="fab fa-whatsapp"></i>
                             </a>
                             <a
                                 href="mailto: treasureuzoma650@gmail.com"
-                                className="rounded-full border border-1 border-[#4c5a5d] px-4 p-3 text-sm text-[#4c5a5d]"
+                                className={iconStyle}
                             >
                                 <i className="fa fa-envelope"></i>
                             </a>
@@ -58,15 +59,8 @@ const Footer = () => {
                         <p>&copy; twentytwentyfour</p>
                         <p className="mt-4">Treasure Uzoma</p>
                     </div>
-                    <small className="py-3">
-                        Design inspired by{" "}
-                        <a
-                            href="https://vickyjay.vercel.app"
-                            target="_blank"
-                            className="font-bold"
-                        >
-                            VickyJay
-                        </a>
+                    <small className="py-3">Design inspired by <a href="https://vickyjay.vercel.app" target="_blank" className="font-bold"
+                        > VickyJay</a>
                     </small>
                 </div>
             </div>
