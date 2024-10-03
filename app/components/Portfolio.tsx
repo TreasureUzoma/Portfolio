@@ -2,7 +2,7 @@ const Portfolio = () => {
     const tagStyle =
         "p-1 rounded-lg bg-[#061417] text-white text-[0.65rem] font-bold overflow-nextline";
     const divStyle =
-        "min-h-[300px] my-2 flex items-center justify-center px-7 bg-[#0a1c20] w-full";
+        "min-h-[300px] my-2 flex items-center justify-center overflow-hidden px-7 bg-[#0a1c20] w-full";
     const buttonStyle =
         "bg-white rounded-lg w-full mt-5 py-2 text-sm text-black space-x-3 justify-center text-center font-bold flex items-center hover:bg-gray-400";
     const buttonStyleTwo =
@@ -29,8 +29,7 @@ const Portfolio = () => {
                                     GapPay Website
                                 </p>
                                 <p className={pStyle}>
-                                    A fintech landing page for a platform that
-                                    simplifies transactions.
+                                    Fintech landing page streamlining transactions with secure user-friendly interface.
                                 </p>
                                 <div className={tagsWrapperStyle}>
                                     <span className={tagStyle}>CSS</span>
@@ -58,8 +57,7 @@ const Portfolio = () => {
                                     SecretSender
                                 </p>
                                 <p className={pStyle}>
-                                    A landing page for a web app for sending
-                                    anonymous messages.
+                                    Landing page for a web app for getting anonymous replies on questions from friends.
                                 </p>
                                 <div className={tagsWrapperStyle}>
                                     <span className={tagStyle}>ReactJs</span>
@@ -102,8 +100,7 @@ const Portfolio = () => {
                                     SecretSender PWA
                                 </p>
                                 <p className={pStyle}>
-                                    A fun mobile-responsive web app that allows
-                                    users send anonymous messages just like ngl.
+                                    Mobile-responsive web app for receiving anonymous replies on the go just like ngl.
                                 </p>
                                 <div className={tagsWrapperStyle}>
                                     <span className={tagStyle}>ReactJs</span>
@@ -137,7 +134,7 @@ const Portfolio = () => {
                                     StreakMaster
                                 </p>
                                 <p className={pStyle}>
-                                    Landing page for a habit tracker PWA app.
+                                    Landing page for a habit tracker PWA app promoting goal achievement.
                                 </p>
                                 <div className={tagsWrapperStyle}>
                                     <span className={tagStyle}>ReactJs</span>
@@ -176,8 +173,7 @@ const Portfolio = () => {
                                     StreakMaster PWA
                                 </p>
                                 <p className={pStyle}>
-                                    A cloud based web app for tracking habits,
-                                    creating streaks and monitoring progress
+                                    Cloud-based habit tracker and streak & progress counter web app 
                                 </p>
                                 <div className={tagsWrapperStyle}>
                                     <span className={tagStyle}>ReactJs</span>
@@ -209,8 +205,7 @@ const Portfolio = () => {
                             <div>
                                 <p className="text-xl text-white">Paddy AI</p>
                                 <p className={pStyle}>
-                                    A friendly AI assistant powered by Google’s
-                                    Gemini
+                                    Gemini powered AI Chatbot for task management and assistance.
                                 </p>
                                 <div className={tagsWrapperStyle}>
                                     <span className={tagStyle}>JavaScript</span>
@@ -243,7 +238,7 @@ const Portfolio = () => {
                                 </p>
                                 <p className={pStyle}>
                                     Convert’s long cumbersome links to shorter
-                                    links.
+                                    links efficiently.
                                 </p>
                                 <div className={tagsWrapperStyle}>
                                     <span className={tagStyle}>JavaScript</span>
@@ -273,8 +268,7 @@ const Portfolio = () => {
                                     GitHub Roast AI
                                 </p>
                                 <p className={pStyle}>
-                                    A websites that roasts gitHub profiles using
-                                    AI.
+                                    AI-powered GitHub profile roasts for humourous insights.
                                 </p>
                                 <div className={tagsWrapperStyle}>
                                     <span className={tagStyle}>JavaScript</span>
@@ -315,8 +309,8 @@ const Portfolio = () => {
                                     Recipe Chat Bot
                                 </p>
                                 <p className={pStyle}>
-                                    Chatbot for giving recipe and preparation
-                                    instructions for over 1000 different food
+                                    Conversational Chatbot for providing 1000+ recipes and cooking
+                                    instructions.
                                 </p>
                                 <div className={tagsWrapperStyle}>
                                     <span className={tagStyle}>JavaScript</span>
@@ -344,7 +338,7 @@ const Portfolio = () => {
                             <div>
                                 <p className="text-xl text-white">Code Byte</p>
                                 <p className={pStyle}>
-                                    A web design agency portfolio
+                                    A web design agency portfolio showcasing modern, responsive design expertise.
                                 </p>
                                 <div className={tagsWrapperStyle}>
                                     <span className={tagStyle}>JavaScript</span>
@@ -376,8 +370,7 @@ const Portfolio = () => {
                                     Password Generator
                                 </p>
                                 <p className={pStyle}>
-                                    A website that generates easy to remember
-                                    passwords
+                                    Secure password generator tool go for generating secure memorable                                     passwords.
                                 </p>
                                 <div className={tagsWrapperStyle}>
                                     <span className={tagStyle}>ReactJs</span>
@@ -415,7 +408,7 @@ const Portfolio = () => {
                                     Jokes Generator
                                 </p>
                                 <p className={pStyle}>
-                                    A website that generates random dry jokes
+                                    Random dry jokes generator delivering humor on a click of a button.
                                 </p>
                                 <div className={tagsWrapperStyle}>
                                     <span className={tagStyle}>JokeAPI</span>
