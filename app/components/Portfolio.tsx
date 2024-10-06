@@ -2,7 +2,7 @@ const Portfolio = () => {
     const tagStyle =
         "p-1 rounded-lg bg-[#061417] text-white text-[0.65rem] font-bold overflow-nextline";
     const divStyle =
-        "min-h-[300px] my-2 flex items-center justify-center overflow-hidden px-7 bg-[#0a1c20] w-full";
+        "min-h-[300px] my-2 flex items-center justify-center overflow-hidden px-7 bg-[#0a1c20] w-full md:px-8";
     const buttonStyle =
         "bg-white rounded-lg w-full mt-5 py-2 text-sm text-black space-x-3 justify-center text-center font-bold flex items-center hover:bg-gray-400";
     const buttonStyleTwo =
@@ -23,7 +23,7 @@ const Portfolio = () => {
                         Here are some of the fun and recent projects I’ve worked
                         on
                     </p>
-                    <div className="grid place-items-center my-5 gap-6 bases-1/3 md:grid-cols-3 md:gap-8">
+                    <div className="grid place-items-center my-5 gap-6 md:grid-cols-3 md:gap-8">
                         <div className={divStyle}>
                             <div>
                                 <p className="text-xl text-white">
