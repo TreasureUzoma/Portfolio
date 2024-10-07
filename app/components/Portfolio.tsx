@@ -189,7 +189,7 @@ const Portfolio = () => {
                                 </div>
                                 <div>
                                     <a
-                                        href="https://streakmasterapp.vercel.app"
+                                        href="https://streakmaster.vercel.app"
                                         className={buttonStyle}
                                         rel="nofollow"
                                         target="_blank"
