@@ -219,7 +219,7 @@ const Portfolio = () => {
                                 </div>
                                 <div>
                                     <a
-                                        href="https://paddyai.vercel.app/"
+                                        href="https://mypaddy.vercel.app/"
                                         target="_blank"
                                         className={buttonStyle}
                                         rel="nofollow"
