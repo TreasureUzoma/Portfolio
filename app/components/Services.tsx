@@ -109,7 +109,7 @@ const Services = () => {
                                 }} // Add spring effect
                             >
                                 <div>
-                                    <h3 className="font-bold text-xl text-white">
+                                    <h3 className="font-bold text-xl text-white w-[69%] md:w-full">
                                         {service.title}
                                     </h3>
                                     <p className={pStyle}>
