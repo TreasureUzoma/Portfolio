@@ -7,10 +7,10 @@ import Image from "next/image";
 
 const Hero = () => {
     return (
-        <header className="my-[5.4rem] flex items-center justify-center min-h-screen relative overflow-hidden w-full md:min-h-[55vh] lg:min-h-[100vh]">
+        <header className="my-[5.4rem] flex items-center justify-center min-h-screen relative overflow-hidden w-full md:min-h-[55vh] lg:min-h-[100vh] md:mt-0">
             <div className="my_fixed_width px-3 md:flex justify-between items-center">
                 <div className="md:w-[52%] lg:w-[60%]">
-                    <h1 className="gradient_text text-[2.1rem] font-clash leading-[2.5rem]">
+                    <h1 className="gradient_text text-[2.1rem] font-clash leading-[2.5rem] md:text-[2.8rem]">
                         Creative Frontend Developer.
                     </h1>
                     <div className="font-[400] mt-[2.5rem] font-rubik pr-5 text-sm">
