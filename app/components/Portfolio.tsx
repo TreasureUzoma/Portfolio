@@ -1,37 +1,47 @@
+"use client";
+import { motion } from "framer-motion";
+import { useEffect } from "react";
+
 const Portfolio = () => {
   const tagsWrapperStyle = "my-[1rem] flex flex-wrap gap-y-3 w-[230px]";
-  const tagStyle = "py-1 px-2 rounded-lg bg-[#061417] text-white text-[0.65rem] font-bold overflow-nextline";
+  const tagStyle =
+    "py-1 px-2 rounded-lg bg-[#061417] text-white text-[0.65rem] font-bold overflow-nextline";
 
   const projects = [
     {
       title: "GapPay Website",
-      description: "Fintech landing page streamlining transactions with secure user-friendly interface.",
+      description:
+        "Fintech landing page streamlining transactions with secure user-friendly interface.",
       tags: ["CSS", "JavaScript"],
       previewLink: "https://gappaywebsite.onrender.com",
     },
     {
       title: "SecretSender",
-      description: "Landing page for a web app for getting anonymous replies on questions from friends.",
+      description:
+        "Landing page for a web app for getting anonymous replies on questions from friends.",
       tags: ["ReactJs", "JavaScript", "TailwindCSS", "Framer Motion"],
       previewLink: "https://secretsenderweb.vercel.app/",
       githubLink: "https://github.com/TreasureUzoma/secretsenderweb/",
     },
     {
       title: "SecretSender PWA",
-      description: "Mobile-responsive web app for receiving anonymous replies on the go just like ngl.",
+      description:
+        "Mobile-responsive web app for receiving anonymous replies on the go just like ngl.",
       tags: ["ReactJs", "JavaScript", "TailwindCSS", "Firebase"],
       previewLink: "https://secretsenderapp.vercel.app",
     },
     {
       title: "StreakMaster",
-      description: "Landing page for a habit tracker PWA app promoting goal achievement.",
+      description:
+        "Landing page for a habit tracker PWA app promoting goal achievement.",
       tags: ["ReactJs", "JavaScript", "TailwindCSS"],
       previewLink: "https://streakmastersite.vercel.app/",
       githubLink: "https://github.com/TreasureUzoma/secretsenderweb/",
     },
     {
       title: "StreakMaster PWA",
-      description: "Cloud-based habit tracker and streak & progress counter web app",
+      description:
+        "Cloud-based habit tracker and streak & progress counter web app",
       tags: ["ReactJs", "JavaScript", "TailwindCSS", "Firebase"],
       previewLink: "https://streakmaster.vercel.app",
     },
@@ -50,26 +60,29 @@ const Portfolio = () => {
     },
     {
       title: "GitHub Roast AI",
-      description: "AI-powered GitHub profile roasts for humourous insights.",
+      description: "AI-powered GitHub profile roasts for humorous insights.",
       tags: ["JavaScript", "GithubAPI", "Tailwindcss", "ReactJs"],
       previewLink: "https://github-profile-roast.vercel.app/",
       githubLink: "https://github.com/TreasureUzoma/GitHubRoast",
     },
     {
       title: "Recipe Chat Bot",
-      description: "Conversational Chatbot for providing 1000+ recipes and cooking instructions.",
+      description:
+        "Conversational Chatbot for providing 1000+ recipes and cooking instructions.",
       tags: ["JavaScript", "API", "CSS"],
       previewLink: "https://dreamforge-eta.vercel.app",
     },
     {
       title: "Code Byte",
-      description: "A web design agency portfolio showcasing modern, responsive design expertise.",
+      description:
+        "A web design agency portfolio showcasing modern, responsive design expertise.",
       tags: ["JavaScript", "FirebaseAPI", "CSS"],
       previewLink: "https://codebytehq.web.app",
     },
     {
       title: "Password Generator",
-      description: "Secure password generator tool go for generating secure memorable passwords.",
+      description:
+        "Secure password generator tool go for generating secure memorable passwords.",
       tags: ["ReactJs", "JavaScript", "TailwindCSS"],
       previewLink: "https://password-generator-iota-seven-45.vercel.app/",
       githubLink: "https://github.com/TreasureUzoma/password-generator/",
@@ -82,6 +95,14 @@ const Portfolio = () => {
       githubLink: "https://github.com/TreasureUzoma/passwordgenerator/",
     },
   ];
+
+  // Set background color when component is mounted
+  useEffect(() => {
+    document.body.style.backgroundColor = "#0A2A32";
+    return () => {
+      document.body.style.backgroundColor = ""; // Reset when component unmounts
+    };
+  }, []);
 
   return (
     <section>
@@ -96,24 +117,24 @@ const Portfolio = () => {
           </p>
           <div className="grid place-items-center my-5 gap-6 md:grid-cols-3 md:gap-8">
             {projects.map((project, index) => (
-              <div
+              <motion.div
                 key={`project-${index}`}
+                whileHover={{
+                  scale: 1.05,
+                  boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.3)",
+                  transition: { duration: 0.3 },
+                }}
                 className="min-h-[300px] my-2 flex items-center justify-center overflow-hidden px-7 bg-[#0a1c20] w-full md:px-8"
               >
                 <div>
-                  <p className="text-xl text-white font-clash">
-                    {project.title}
-                  </p>
+                  <p className="text-xl text-white font-clash">{project.title}</p>
                   <p className="text-sm font-rubik text-[#808e91] leading-[1.4rem] mt-2">
                     {project.description}
                   </p>
                   <div className={tagsWrapperStyle}>
                     {project.tags
                       .map((tag, tagIndex) => (
-                        <span
-                          key={`tag-${index}-${tagIndex}`}
-                          className={tagStyle}
-                        >
+                        <span key={`tag-${index}-${tagIndex}`} className={tagStyle}>
                           {tag}
                         </span>
                       ))
@@ -151,7 +172,7 @@ const Portfolio = () => {
                     )}
                   </div>
                 </div>
-              </div>
+              </motion.div>
             ))}
           </div>
         </div>
