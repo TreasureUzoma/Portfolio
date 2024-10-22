@@ -97,7 +97,7 @@ const Services = () => {
                             <motion.div
                                 key={index}
                                 ref={(el) => { refs.current[index] = el }} // Proper ref assignment without return
-                                className={`w-full h-[270px] flex items-center justify-center relative overflow-hidden px-7 bg-[#0a1c20] ${service.className}`}
+                                className={`w-full h-[270px] flex items-center justify-center relative overflow-hidden px-7 font-clash bg-[#0a1c20] ${service.className}`}
                                 variants={itemVariants}
                                 initial="hidden"
                                 animate={visibleStates[index] ? "visible" : "hidden"}
