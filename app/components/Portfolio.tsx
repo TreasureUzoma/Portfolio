@@ -91,7 +91,7 @@ const Portfolio = () => {
       description: "Random dry jokes generator delivering humor on a click of a button.",
       tags: ["JokeAPI", "JavaScript", "CSS"],
       previewLink: "https://jokegenerator.onrender.com/",
-      githubLink: "https://github.com/TreasureUzoma/passwordgenerator/",
+      githubLink: "https://github.com/TreasureUzoma/Dev-Joke-Generator/",
     },
   ];
 
