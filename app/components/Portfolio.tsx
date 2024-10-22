@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "framer-motion";
-import { useEffect } from "react";
 
 const Portfolio = () => {
   const tagsWrapperStyle = "my-[1rem] flex flex-wrap gap-y-3 w-[230px]";
@@ -95,14 +94,6 @@ const Portfolio = () => {
       githubLink: "https://github.com/TreasureUzoma/passwordgenerator/",
     },
   ];
-
-  // Set background color when component is mounted
-  useEffect(() => {
-    document.body.style.backgroundColor = "#0A2A32";
-    return () => {
-      document.body.style.backgroundColor = ""; // Reset when component unmounts
-    };
-  }, []);
 
   return (
     <section>
