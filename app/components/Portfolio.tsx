@@ -49,7 +49,7 @@ const Portfolio = () => {
       description: "Gemini powered AI Chatbot for task management and assistance.",
       tags: ["ReactJS", "TailwindCSS", "Gemeni API"],
       previewLink: "https://mypaddy.vercel.app/",
-      githubLink: "https://github.com/TreasureUzoma/GitHubRoast",
+      githubLink: "https://github.com/TreasureUzoma/MyPaddy",
     },
     {
       title: "LinkLite - Link Shortener",

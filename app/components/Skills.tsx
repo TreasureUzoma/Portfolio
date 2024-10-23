@@ -19,7 +19,7 @@ const Skills = () => {
                         {skillsList.map((skill, index) => (
                             <div 
                                 key={skill} 
-                                className={`w-full flex items-center relative overflow-hidden p-4 bg-[#0a1c20] ${index % 2 === 0 ? 'block_left' : 'block_right'} transition-all duration-300 text-[0.9rem] hover:text-[0.8rem]`}
+                                className={`w-full flex items-center relative overflow-hidden p-4 bg-[#0a1c20] font-clash ${index % 2 === 0 ? 'block_left' : 'block_right'} transition-all duration-300 text-[0.9rem] hover:text-[0.8rem]`}
                             >
                                 <p>{skill}</p>
                             </div>
