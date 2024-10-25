@@ -10,7 +10,7 @@ body {
 
 @font-face {
     font-family: "Clash Display Medium";
-    src: url("https://vickyjay.vercel.app/fonts/clash/ClashDisplay-Medium.otf")
+    src: url("/fonts/ClashDisplay-Medium.otf")
         format("opentype");
     font-weight: normal;
     font-style: normal;

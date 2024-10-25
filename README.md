@@ -10,7 +10,7 @@ This is a simple to understand nextjs code for my portfolio. Its my first NextJs
 
 ### Dependencies
 
-* You’ll need NextJs v13
+* You’ll need NextJs, Typescript and TailwindCSS
 
 ## Authors
 

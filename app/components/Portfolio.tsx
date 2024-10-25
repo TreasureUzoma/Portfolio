@@ -81,7 +81,7 @@ const Portfolio = () => {
     {
       title: "Password Generator",
       description:
-        "Secure password generator tool go for generating secure memorable passwords.",
+        "Secure password generator tool for generating secure memorable passwords.",
       tags: ["ReactJs", "JavaScript", "TailwindCSS"],
       previewLink: "https://password-generator-iota-seven-45.vercel.app/",
       githubLink: "https://github.com/TreasureUzoma/password-generator/",
