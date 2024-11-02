@@ -15,6 +15,15 @@ const Portfolio = () => {
       previewLink: "https://gappaywebsite.onrender.com",
     },
     {
+      title: "Eversub - Waitlist",
+      description:
+        "Waitlist website for a bill payment/subscription management web app.",
+      tags: ["NextJs", "Typescript", "TailwindCSS"],
+      previewLink: "https://eversub.vercel.app/",
+      githubLink: "https://github.com/TreasureUzoma/eversubsite/",
+    },
+
+    {
       title: "SecretSender",
       description:
         "Landing page for a web app for getting anonymous replies on questions from friends.",
@@ -46,14 +55,16 @@ const Portfolio = () => {
     },
     {
       title: "Paddy AI",
-      description: "Gemini powered AI Chatbot for task management and assistance.",
+      description:
+        "Gemini powered AI Chatbot for task management and assistance.",
       tags: ["ReactJS", "TailwindCSS", "Gemeni API"],
       previewLink: "https://mypaddy.vercel.app/",
       githubLink: "https://github.com/TreasureUzoma/MyPaddy",
     },
     {
       title: "LinkLite - Link Shortener",
-      description: "Convert’s long cumbersome links to shorter links efficiently.",
+      description:
+        "Convert’s long cumbersome links to shorter links efficiently.",
       tags: ["JavaScript", "TinyUrlAPI", "CSS"],
       previewLink: "https://linklite-theta.vercel.app/",
     },
@@ -88,7 +99,8 @@ const Portfolio = () => {
     },
     {
       title: "Jokes Generator",
-      description: "Random dry jokes generator delivering humor on a click of a button.",
+      description:
+        "Random dry jokes generator delivering humor on a click of a button.",
       tags: ["JokeAPI", "JavaScript", "CSS"],
       previewLink: "https://jokegenerator.onrender.com/",
       githubLink: "https://github.com/TreasureUzoma/Dev-Joke-Generator/",

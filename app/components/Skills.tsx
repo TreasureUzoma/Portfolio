@@ -1,7 +1,7 @@
 const Skills = () => {
     const skillsList = [
         "HTML", "CSS", "JavaScript", "Firebase", "ReactJs", 
-        "TailwindCSS", "Bootstrap", "Git/Github", "Animations", "SEO", ". . ."
+        "TailwindCSS", "NextJs", "Git/Github", "Animations", "SEO", ". . ."
     ];
 
     return (
