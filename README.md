@@ -1,7 +1,9 @@
 # My Portfolio 
 
 NextJs version for my portfolio 
-<img src="https://treasureuzoma.netlify.app/images/screenshot.png" width="100%" />
+
+<img src="https://treasureuzoma.netlify.app/images/screenshot.png" width="98%"/>
+
 
 ## Description
 
