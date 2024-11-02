@@ -18,7 +18,7 @@ const Portfolio = () => {
       title: "Eversub - Waitlist",
       description:
         "Waitlist website for a bill payment/subscription management web app.",
-      tags: ["NextJs", "Typescript", "TailwindCSS", "Firebase", "Telegram API"],
+      tags: ["NextJs", "Typescript", "TailwindCSS", "Firebase"],
       previewLink: "https://eversub.vercel.app/",
       githubLink: "https://github.com/TreasureUzoma/eversubsite/",
     },
@@ -127,17 +127,27 @@ const Portfolio = () => {
                   boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.3)",
                   transition: { duration: 0.3 },
                 }}
+                whileTap={{
+                  scale: 1.05,
+                  boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.3)",
+                  transition: { duration: 0.3 },
+                }}
                 className="min-h-[300px] my-2 flex items-center justify-center overflow-hidden px-7 bg-[#0a1c20] w-full md:px-8"
               >
                 <div>
-                  <p className="text-xl text-white font-clash">{project.title}</p>
+                  <p className="text-xl text-white font-clash">
+                    {project.title}
+                  </p>
                   <p className="text-sm font-rubik text-[#808e91] leading-[1.4rem] mt-2">
                     {project.description}
                   </p>
                   <div className={tagsWrapperStyle}>
                     {project.tags
                       .map((tag, tagIndex) => (
-                        <span key={`tag-${index}-${tagIndex}`} className={tagStyle}>
+                        <span
+                          key={`tag-${index}-${tagIndex}`}
+                          className={tagStyle}
+                        >
                           {tag}
                         </span>
                       ))
