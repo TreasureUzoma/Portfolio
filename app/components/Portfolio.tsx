@@ -18,7 +18,7 @@ const Portfolio = () => {
       title: "Eversub - Waitlist",
       description:
         "Waitlist website for a bill payment/subscription management web app.",
-      tags: ["NextJs", "Typescript", "TailwindCSS"],
+      tags: ["NextJs", "Typescript", "TailwindCSS", "Firebase", "Telegram API"],
       previewLink: "https://eversub.vercel.app/",
       githubLink: "https://github.com/TreasureUzoma/eversubsite/",
     },
