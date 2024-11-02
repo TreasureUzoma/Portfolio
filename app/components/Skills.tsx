@@ -1,7 +1,16 @@
 const Skills = () => {
     const skillsList = [
-        "HTML", "CSS", "JavaScript", "Firebase", "ReactJs", 
-        "TailwindCSS", "NextJs", "Git/Github", "Animations", "SEO", ". . ."
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Firebase",
+      "ReactJs",
+      "TailwindCSS",
+      "NextJs",
+      "Git/Github",
+      "Animations",
+      "SEO",
+      ". . .",
     ];
 
     return (
@@ -13,7 +22,7 @@ const Skills = () => {
                         <span className="inline-block animate-bounce">🤹</span>
                     </h2>
                     <p className="text-sm text-[#808e91] font-rubik my-3">
-                        These are some of the skills I’ve learnt over the past years.
+                        These are some of the skills I&apos;ve learnt over the past years.
                     </p>
                     <div className="grid place-items-center my-5 gap-5 md:grid-cols-3">
                         {skillsList.map((skill, index) => (
