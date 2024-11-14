@@ -65,8 +65,8 @@ const Portfolio = () => {
       title: "LinkLite - Link Shortener",
       description:
         "Convert’s long cumbersome links to shorter links efficiently.",
-      tags: ["JavaScript", "TinyUrlAPI", "CSS"],
-      previewLink: "https://linklite-theta.vercel.app/",
+      tags: ["ReactJs", "TailwindCSS", "TinyUrlAPI", "CSS"],
+      previewLink: "https://link-lite-eta.vercel.app/",
     },
     {
       title: "GitHub Roast AI",
