@@ -1,8 +1,4 @@
-import InstagramIcon from "./icons/InstagramIcon";
-import FacebookIcon from "./icons/FacebookIcon";
-import TwitterIcon from "./icons/TwitterIcon";
-import LinkedinIcon from "./icons/LinkedinIcon";
-
+import SvgIcons from "./icons/SvgIcons";
 import Image from "next/image";
 
 const Hero = () => {
@@ -11,7 +7,7 @@ const Hero = () => {
         <div className="my_fixed_width md:flex justify-between items-center sm:pr-2 md:px-3">
           <div className="md:w-[52%] lg:w-[60%]">
             <h1 className="gradient_text text-[2.1rem] font-clash leading-[2.5rem] md:text-[2.83rem]">
-              Creative Frontend Developer.
+              Creative <br className="md:hidden"/> Frontend Developer.
             </h1>
             <div className="font-[400] mt-[2.5rem] font-rubik pr-5 text-sm">
               <p className="gradient_text">
@@ -34,31 +30,55 @@ const Hero = () => {
             <div className="mt-[2rem] flex space-x-5">
               <a
                 href="https://www.facebook.com/profile.php?id=100085862181551"
-                className="p-1 rounded-full border border-2 border-[#34afcb]"
+                className="rounded-full border border-2 border-[#34afcb] hover:border-green hover:bg-green"
                 target="_blank"
               >
-                <FacebookIcon />
+                <SvgIcons
+                  type="facebook"
+                  height="20"
+                  width="20"
+                  color="#34afcb"
+                  className="m-1 hover:fill-[#061417]"
+                />
               </a>
               <a
                 href="https://www.linkedin.com/in/treasure-uzoma-40a789260"
-                className="p-1 rounded-full border border-2 border-[#34afcb]"
+                className="rounded-full border border-2 border-[#34afcb] hover:border-green hover:bg-green"
                 target="_blank"
               >
-                <LinkedinIcon />
+                <SvgIcons
+                  type="linkedin"
+                  height="20"
+                  width="20"
+                  color="#34afcb"
+                  className="m-1 hover:fill-[#061417]"
+                />
               </a>
               <a
                 href="https://www.twitter.com/TreasureUzoma1"
-                className="p-1 rounded-full border border-2 border-[#34afcb]"
+                className="rounded-full border border-2 border-[#34afcb] hover:border-green hover:bg-green"
                 target="_blank"
               >
-                <TwitterIcon />
+                <SvgIcons
+                  type="twitter"
+                  height="20"
+                  width="20"
+                  color="#34afcb"
+                  className="m-1 hover:fill-[#061417]"
+                />
               </a>
               <a
                 href="https://www.instagram.com/naira_jasper"
-                className="p-1 rounded-full border border-2 border-[#34afcb]"
+                className="rounded-full border border-2 border-[#34afcb] hover:border-green hover:bg-green"
                 target="_blank"
               >
-                <InstagramIcon />
+                <SvgIcons
+                  type="instagram"
+                  height="20"
+                  width="20"
+                  color="#34afcb"
+                  className="m-1 hover:fill-[#061417]"
+                />
               </a>
             </div>
           </div>

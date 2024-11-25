@@ -10,6 +10,12 @@ const config: Config = {
         lexend: ["Lexend", "sans-serif"], // Add Lexend font family
         rubik: ["Rubik", "sans-serif"],
       },
+      colors: {
+        green: "#34afcb",
+      },
+      backgroundColor: {
+        green: "#34afcb",
+      },
     },
   },
   plugins: [],

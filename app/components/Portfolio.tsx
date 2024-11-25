@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import SvgIcons from "./icons/SvgIcons";
 
 const Portfolio = () => {
   const tagsWrapperStyle = "my-[1rem] flex flex-wrap gap-y-3 w-[230px]";
@@ -67,6 +68,7 @@ const Portfolio = () => {
         "Convert’s long cumbersome links to shorter links efficiently.",
       tags: ["ReactJs", "TailwindCSS", "TinyUrlAPI", "CSS"],
       previewLink: "https://link-lite-eta.vercel.app/",
+      githubLink: "https://github.com/TreasureUzoma/LinkLite"
     },
     {
       title: "GitHub Roast AI",
@@ -170,9 +172,7 @@ const Portfolio = () => {
                       target="_blank"
                     >
                       <span>Preview</span>
-                      <span className="!text-[0.9rem] material-symbols-outlined">
-                        visibility
-                      </span>
+                      <SvgIcons type="visibility" width="15" height="15" className="inline-block" />
                     </a>
                     {project.githubLink && (
                       <a

@@ -4,7 +4,6 @@ export const metadata: Metadata = {
     title: "Treasure Uzoma - Portfolio",
     description:
         "3+ years of experience. Specialized in building products, while ensuring a seamless web experience for clients across Africa.",
-    themeColor: "#061417",
     keywords: "Treasure Uzoma, Portfolio, Web Developer, TreasureUzoma, Frontend Developer, treasureuzoma, Treasure Dev, Treasure Uzoma Front-End Developer, Treasure Uzoma Programmer, Nigeria Programmer, Treasure Uzoma Portfolio",
     robots: "index, follow",
     icons: [
@@ -32,15 +31,8 @@ export default function RootLayout({
     return (
         <html lang="en">
             <head>
+                {/* for google-site-generation, generate yours from google cloud console, for seo */}
                 <meta name="google-site-verification" content="ZuNx7mDeY7yQfX8ZKLR4FBsXcFZPFWzbXILnaAGmdMo" />
-                <link
-                    rel="stylesheet"
-                    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-                />
-                <link
-                    href="https://fonts.googleapis.com/icon?family=Material+Icons"
-                    rel="stylesheet"
-                />
                 <link
                     rel="stylesheet"
                     href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"

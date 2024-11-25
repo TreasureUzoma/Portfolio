@@ -1,6 +1,5 @@
-import Head from "next/head";
 
-import "./globals.css";
+import "@/styles/globals.css";
 
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
