@@ -120,7 +120,7 @@ const Portfolio = () => {
           <p className="text-sm text-[#808e91] font-rubik my-3">
             Here are some of the fun and recent projects I’ve worked on
           </p>
-          <div className="grid place-items-center my-5 gap-6 md:grid-cols-3 md:gap-8">
+          <div className="grid place-items-center my-5 gap-6 sm:grid-cols-2 md:grid-cols-3 sm:gap-8">
             {projects.map((project, index) => (
               <motion.div
                 key={`project-${index}`}

@@ -85,10 +85,10 @@ const Hero = () => {
           <div className="flex justify-center">
             <div className="avatar_container inline-block">
               <Image
-                src="/images/hero.png"
+                src="/images/avatar.png"
                 width={280}
                 height={280}
-                alt="avatar"
+                alt="Treasure Uzoma Avatar"
                 className="avatar_pic block"
               />
             </div>

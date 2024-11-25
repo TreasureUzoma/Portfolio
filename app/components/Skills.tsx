@@ -24,7 +24,7 @@ const Skills = () => {
                     <p className="text-sm text-[#808e91] font-rubik my-3">
                         These are some of the skills I&apos;ve learnt over the past years.
                     </p>
-                    <div className="grid place-items-center my-5 gap-5 md:grid-cols-3">
+                    <div className="grid place-items-center my-5 gap-5 sm:grid-cols-2 md:grid-cols-3">
                         {skillsList.map((skill, index) => (
                             <div 
                                 key={skill} 
