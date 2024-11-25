@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Treasure Uzoma - Portfolio",
+    title: "Treasure Uzoma | Creative Frontend Developer - Portfolio",
     description:
         "3+ years of experience. Specialized in building products, while ensuring a seamless web experience for clients across Africa.",
     keywords: "Treasure Uzoma, Portfolio, Web Developer, TreasureUzoma, Frontend Developer, treasureuzoma, Treasure Dev, Treasure Uzoma Front-End Developer, Treasure Uzoma Programmer, Nigeria Programmer, Treasure Uzoma Portfolio",
