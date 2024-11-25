@@ -59,7 +59,7 @@ const Footer = () => {
             <small className="py-3">
               Design inspired by{" "}
               <a
-                href="https://vickyjay.vercel.app"
+                href="https://vickyjay.brimple.app"
                 target="_blank"
                 className="font-bold"
               >
