@@ -78,11 +78,11 @@ const Portfolio = () => {
       githubLink: "https://github.com/TreasureUzoma/GitHubRoast",
     },
     {
-      title: "Recipe Chat Bot",
+      title: "Tastrees Clone",
       description:
-        "Conversational Chatbot for providing 1000+ recipes and cooking instructions.",
-      tags: ["JavaScript", "API", "CSS"],
-      previewLink: "https://dreamforge-eta.vercel.app",
+        "AI powered recipe generator for generating recipes based on food/recipe image uploaded.",
+      tags: ["NextJS", "TypeScript", "Gemini API", "TailwindCSS"],
+      previewLink: "https://tastreesclone.vercel.app",
     },
     {
       title: "Code Byte",
