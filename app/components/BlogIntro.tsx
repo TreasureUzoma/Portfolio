@@ -12,7 +12,7 @@ const BlogIntro = () => {
                         knowledge <a
                             href="https://treasureuzomablog.vercel.app"
                             target="_blank"
-                            className="text-[#34afcb] font-bold"
+                            className="text-green hover:text-[rgba(52,175,203,0.8)] font-bold"
                         >
                              here.
                         </a>

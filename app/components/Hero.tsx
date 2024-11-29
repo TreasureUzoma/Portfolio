@@ -1,5 +1,7 @@
+"use client"
+
 import SvgIcons from "./icons/SvgIcons";
-import Image from "next/image";
+import HeroImage from "./mainComponents/HeroImage";
 
 const Hero = () => {
     return (
@@ -7,7 +9,7 @@ const Hero = () => {
         <div className="my_fixed_width md:flex justify-between items-center sm:pr-2 md:px-3">
           <div className="md:w-[52%] lg:w-[60%]">
             <h1 className="gradient_text text-[2.1rem] font-clash leading-[2.5rem] md:text-[2.83rem]">
-              Creative <br className="md:hidden"/> Frontend Developer.
+              Creative <br className="md:hidden" /> Frontend Developer.
             </h1>
             <div className="font-[400] mt-[2.5rem] font-rubik pr-5 text-sm">
               <p className="gradient_text">
@@ -82,17 +84,7 @@ const Hero = () => {
               </a>
             </div>
           </div>
-          <div className="flex justify-center">
-            <div className="avatar_container inline-block">
-              <Image
-                src="/images/avatar.png"
-                width={280}
-                height={280}
-                alt="Treasure Uzoma Avatar"
-                className="avatar_pic block"
-              />
-            </div>
-          </div>
+          <HeroImage />
         </div>
       </header>
     );

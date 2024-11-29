@@ -61,7 +61,7 @@ const Footer = () => {
               <a
                 href="https://vickyjay.brimble.app"
                 target="_blank"
-                className="font-bold"
+                className="font-bold hover:text-slate-400"
               >
                 {" "}
                 VickyJay

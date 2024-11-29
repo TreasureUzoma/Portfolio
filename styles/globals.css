@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+::selection {
+    background-color: rgb(52, 175, 203, 0.1);
+}
+
 body {
     background-color: #061417;
     color: #fff;
@@ -15,17 +19,21 @@ body {
     font-weight: normal;
     font-style: normal;
 }
+
 .my_fixed_width {
     width: 83%;
     max-width: 1200px;
 }
+
 .gradient_text {
     background: linear-gradient(to right, #fcfae9, #dfe9fe);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     font-weight: bolder;
     animation: colorChange 2.8s infinite;
 }
+
 @keyframes colorChange {
     0% {
         background: linear-gradient(to right, #fcfae9, #dfe9fe);
@@ -43,11 +51,13 @@ body {
         color: transparent;
     }
 }
+
 .avatar_container {
     position: relative;
     border: 2px solid #34afcb;
     margin: 35px 0;
 }
+
 .avatar_pic {
     width: 280px;
     border: none;
@@ -55,6 +65,7 @@ body {
     top: -10px;
     left: -10px;
 }
+
 .block_left::before {
     content: "";
     position: absolute;
@@ -73,6 +84,7 @@ body {
     height: 2px;
     background: linear-gradient(to right, rgba(76, 90, 93, 0.1), #4c5a5d);
 }
+
 .block_right {
     position: relative;
     border-left: none;
@@ -80,6 +92,7 @@ body {
     border-top: none;
     border-bottom: none;
 }
+
 .block_right::before {
     content: "";
     position: absolute;
@@ -89,6 +102,7 @@ body {
     width: 2px;
     background: linear-gradient(to bottom, rgba(76, 90, 93, 0.1), #4c5a5d);
 }
+
 .block_right::after {
     content: "";
     position: absolute;

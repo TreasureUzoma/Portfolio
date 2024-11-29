@@ -83,6 +83,7 @@ const Portfolio = () => {
         "AI powered recipe generator for generating recipes based on food/recipe image uploaded.",
       tags: ["NextJS", "TypeScript", "Gemini API", "TailwindCSS"],
       previewLink: "https://tastreesclone.vercel.app",
+      githubLink: "https://github.com/TreasureUzoma/tastreesClone",
     },
     {
       title: "Code Byte",
@@ -156,7 +157,7 @@ const Portfolio = () => {
                       .reduce((prev, curr) => (
                         <>
                           {prev}
-                          <span key={`dot-${index}`} className="px-3">
+                          <span key={`dot-${index}`} className="text-sm px-[0.7rem]">
                             •
                           </span>
                           {curr}

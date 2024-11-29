@@ -68,7 +68,7 @@ const Qualifications = () => {
             {sections.map((section, index) => (
               <h3
                 key={section.type}
-                className={`px-[1.3rem] flex items-center justify-center ${
+                className={`cursor-pointer px-[1.3rem] flex items-center justify-center ${
                   showEducation === (index === 0)
                     ? "text-[#34afcb]"
                     : "text-[#a3afb2]"
