@@ -106,7 +106,7 @@ const Services = () => {
                   animate={visibleStates[index] ? "visible" : "hidden"}
                   transition={{
                     duration: 0.5,
-                    delay: index * 0.1,
+                    delay: index * 0.2,
                     type: "spring",
                     stiffness: 300,
                   }} // Add spring effect

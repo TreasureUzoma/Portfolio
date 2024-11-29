@@ -10,7 +10,7 @@ const HeroImage = () => {
         initial={{ rotate: 0 }}
         whileHover={{ rotate: -5 }}
         whileTap={{ rotate: -5 }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 0.5, delay: 0.2 }}
         className="avatar_container inline-block"
       >
         <motion.div
@@ -32,4 +32,4 @@ const HeroImage = () => {
   );
 }
 
-export default HeroImage
+export default HeroImage;
