@@ -17,14 +17,12 @@ const Hero = () => {
                 what I do best.
               </p>
               <p className="gradient_text py-[1.8rem]">
-                With over 3 years of experience, I specialize in building
-                products that create seamless, enjoyable web
-                experiences for clients across Africa and beyond.
-                <br />
-                Let’s make something amazing together.
+                With 3+ years of experience, I build seamless, enjoyable web
+                experiences for clients and businesses. Let’s make
+                something amazing together!
               </p>
             </div>
-            <div className="mt-[2rem] flex space-x-5">
+            <div className="mt-[1.7rem] flex space-x-5">
               <a
                 href="https://www.facebook.com/profile.php?id=100085862181551"
                 className="rounded-full border border-2 border-[#34afcb] hover:border-green hover:bg-green"

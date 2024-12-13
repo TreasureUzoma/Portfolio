@@ -56,17 +56,6 @@ const Footer = () => {
               <p>&copy; twentytwentyfour</p>
               <p className="mt-4">Treasure Uzoma</p>
             </div>
-            <small className="py-3">
-              Design inspired by{" "}
-              <a
-                href="https://vickyjay.brimble.app"
-                target="_blank"
-                className="font-bold hover:text-slate-400"
-              >
-                {" "}
-                VickyJay
-              </a>
-            </small>
           </div>
         </div>
       </footer>
