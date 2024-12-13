@@ -75,7 +75,6 @@ const Portfolio = () => {
       description: "AI-powered GitHub profile roasts for humorous insights.",
       tags: ["JavaScript", "GithubAPI", "Tailwindcss", "ReactJs"],
       previewLink: "https://github-profile-roast.vercel.app/",
-      githubLink: "https://github.com/TreasureUzoma/GitHubRoast",
     },
     {
       title: "Tastrees Clone",
@@ -168,7 +167,7 @@ const Portfolio = () => {
                   <div className="flex justify-center items-center gap-3">
                     <a
                       href={project.previewLink}
-                      className="bg-white rounded-lg w-full mt-5 py-2 text-sm text-black space-x-3 justify-center text-center font-bold flex items-center hover:bg-gray-400"
+                      className="bg-white rounded-md w-full mt-5 py-2 text-sm text-black space-x-3 justify-center text-center font-bold flex items-center hover:bg-gray-400"
                       rel="nofollow"
                       target="_blank"
                     >
@@ -178,7 +177,7 @@ const Portfolio = () => {
                     {project.githubLink && (
                       <a
                         href={project.githubLink}
-                        className="bg-white rounded-lg w-[50%] mt-5 py-2 text-sm text-black space-x-3 justify-center text-center font-bold flex items-center hover:bg-gray-400"
+                        className="bg-white rounded-md w-[30%] mt-5 py-[0.59rem] text-sm text-black space-x-3 justify-center text-center font-bold flex items-center hover:bg-gray-400"
                         target="_blank"
                       >
                         <i className="!text-[1rem] fa-brands fa-github"></i>

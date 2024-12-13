@@ -10,7 +10,7 @@ const Nav = () => {
                         href="https://www.github.com/TreasureUzoma"
                         target="_blank"
                     >
-                        <i className="fab fa-github text-[1.28rem]"></i>
+                        <i className="fab fa-github text-[1.28rem] hover:text-[1.33rem]"></i>
                     </a>
                 </div>
             </div>

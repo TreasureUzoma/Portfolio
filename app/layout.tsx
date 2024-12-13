@@ -49,6 +49,7 @@ export default function RootLayout({
                     rel="stylesheet"
                     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
                 />
+                <meta name="theme-color" content="#061417" />
             </head>
             <body>{children}</body>
         </html>

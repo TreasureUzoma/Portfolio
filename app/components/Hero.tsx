@@ -18,13 +18,8 @@ const Hero = () => {
               </p>
               <p className="gradient_text py-[1.8rem]">
                 With over 3 years of experience, I specialize in building
-                powerful products that create seamless, enjoyable web
+                products that create seamless, enjoyable web
                 experiences for clients across Africa and beyond.
-              </p>
-              <p className="gradient_text">
-                I’m dedicated to progressive enhancement, design systems, and UI
-                engineering, with a constant focus on performance and
-                scalability to bring ideas to life.
                 <br />
                 Let’s make something amazing together.
               </p>
