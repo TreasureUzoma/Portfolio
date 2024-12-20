@@ -9,21 +9,21 @@ const Portfolio = () => {
 
   const projects = [
     {
+      title: "Eversub",
+      description:
+        "A full-stack VTU web app for paying bills and handling subscriptions effortlessly.",
+      tags: ["NextJs", "Typescript", "TailwindCSS", "Firebase", "API"],
+      previewLink: "https://eversub.vercel.app/",
+      githubLink: "https://github.com/TreasureUzoma/eversubsite/",
+    },
+    {
       title: "GapPay Website",
       description:
         "Fintech landing page streamlining transactions with secure user-friendly interface.",
       tags: ["CSS", "JavaScript"],
       previewLink: "https://gappaywebsite.onrender.com",
     },
-    {
-      title: "Eversub - Waitlist",
-      description:
-        "Waitlist website for a bill payment/subscription management web app.",
-      tags: ["NextJs", "Typescript", "TailwindCSS", "Firebase"],
-      previewLink: "https://eversub.vercel.app/",
-      githubLink: "https://github.com/TreasureUzoma/eversubsite/",
-    },
-
+    
     {
       title: "SecretSender",
       description:
