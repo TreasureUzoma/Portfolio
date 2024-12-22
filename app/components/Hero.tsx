@@ -11,7 +11,7 @@ const Hero = () => {
             <h1 className="gradient_text text-[2.1rem] font-clash leading-[2.5rem] md:leading-[3.6rem] md:text-[3.5rem]">
               Creative <br className="md:hidden" /> Frontend Developer.
             </h1>
-            <div className="font-[400] mt-[2rem] font-rubik pr-5 text-sm">
+            <div className="font-[400] mt-[1.7rem] font-rubik pr-5 text-sm">
               <p className="gradient_text">
                 Crafting simple, beautiful, and intuitive digital experiences is
                 what I do best.

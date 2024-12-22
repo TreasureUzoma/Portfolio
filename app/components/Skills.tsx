@@ -6,10 +6,10 @@ const Skills = () => {
     { name: "CSS", image: "/images/stacks/css.png", desc: "Styling" },
     { name: "JavaScript", image: "/images/stacks/js.png", desc: "Programming Language" },
     { name: "Firebase", image: "/images/stacks/firebase.png", desc: "Database/Auth" },
-    { name: "ReactJs", image: "/images/stacks/react.png", desc: "Frontend Framework" },
+    { name: "React.Js", image: "/images/stacks/react.png", desc: "Frontend Framework" },
     { name: "TailwindCSS", image: "/images/stacks/tailwind.png", desc: "Utility-First Styling" },
     { name: "Search Engine Optimization", image: "/images/stacks/seo.png", desc: "" },
-    { name: "NextJs", image: "/images/stacks/nextjs.png", desc: "Fullstack Framework" },
+    { name: "Next.Js", image: "/images/stacks/nextjs.png", desc: "Fullstack Framework" },
     { name: "Git/Github", image: "/images/stacks/git.png", desc: "Version Control" },
     { name: "Framer Motions", image: "/images/stacks/framer.png", desc: "Animations" },
     { name: ". . .", image: "/images/stacks/etc.png", desc: "" },
@@ -43,7 +43,7 @@ const Skills = () => {
                 </figure>
                 <div>
                   <p className="font-bold">{skill.name}</p>
-                  <p className="text-sm text-[#b0b8ba]">{skill.desc || ""}</p>
+                  <p className="text-[0.8rem] font-rubik text-[#b0b8ba]">{skill.desc || ""}</p>
                 </div>
               </div>
             ))}
