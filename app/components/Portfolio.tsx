@@ -27,7 +27,7 @@ const Portfolio = () => {
     {
       title: "SecretSender",
       description:
-        "Full-stack web app for getting anonymous replies on questions from friends like ngl.",
+        "Full-stack web app for getting anonymous replies on questions from friends.",
       tags: ["ReactJs", "JavaScript", "TailwindCSS", "Framer Motion", "Firebase"],
       previewLink: "https://secretsenderweb.vercel.app/",
       githubLink: "https://github.com/TreasureUzoma/secretsenderweb/",
@@ -62,9 +62,9 @@ const Portfolio = () => {
       previewLink: "https://github-profile-roast.vercel.app/",
     },
     {
-      title: "Tastrees Clone",
+      title: "Tastrees AI (Clone)",
       description:
-        "AI powered recipe generator for generating recipes based on food/recipe image uploaded.",
+        "AI-powered recipe generator that creates recipes from uploaded food/recipe images.",
       tags: ["NextJS", "TypeScript", "Gemini API", "TailwindCSS"],
       previewLink: "https://tastreesclone.vercel.app",
       githubLink: "https://github.com/TreasureUzoma/tastreesClone",
@@ -112,7 +112,7 @@ const Portfolio = () => {
                   boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.3)",
                   transition: { duration: 0.3 },
                 }}
-                className="min-h-[300px] my-2 flex items-center justify-center overflow-hidden px-7 bg-[#0a1c20] w-full md:px-8"
+                className="min-h-[300px] my-2 flex items-center justify-center overflow-hidden py-9 px-7 bg-[#0a1c20] w-full md:px-8"
               >
                 <div>
                   <p className="text-xl text-white font-clash">
