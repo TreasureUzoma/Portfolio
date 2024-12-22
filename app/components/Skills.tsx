@@ -42,7 +42,7 @@ const Skills = () => {
                   />
                 </figure>
                 <div>
-                  <p className="font-bold">{skill.name}</p>
+                  <p>{skill.name}</p>
                   <p className="text-[0.8rem] font-rubik text-[#b0b8ba]">{skill.desc || ""}</p>
                 </div>
               </div>
