@@ -21,46 +21,23 @@ const Portfolio = () => {
       description:
         "Fintech landing page streamlining transactions with secure user-friendly interface.",
       tags: ["CSS", "JavaScript"],
-      previewLink: "https://gappaywebsite.onrender.com",
+      previewLink: "https://gappayfinance.vercel.app",
     },
     
     {
       title: "SecretSender",
       description:
-        "Landing page for a web app for getting anonymous replies on questions from friends.",
-      tags: ["ReactJs", "JavaScript", "TailwindCSS", "Framer Motion"],
+        "Full-stack web app for getting anonymous replies on questions from friends like ngl.",
+      tags: ["ReactJs", "JavaScript", "TailwindCSS", "Framer Motion", "Firebase"],
       previewLink: "https://secretsenderweb.vercel.app/",
       githubLink: "https://github.com/TreasureUzoma/secretsenderweb/",
     },
     {
-      title: "SecretSender PWA",
-      description:
-        "Mobile-responsive web app for receiving anonymous replies on the go just like ngl.",
-      tags: ["ReactJs", "JavaScript", "TailwindCSS", "Firebase"],
-      previewLink: "https://secretsenderapp.vercel.app",
-    },
-    {
       title: "StreakMaster",
       description:
-        "Landing page for a habit tracker PWA app promoting goal achievement.",
-      tags: ["ReactJs", "JavaScript", "TailwindCSS"],
-      previewLink: "https://streakmastersite.vercel.app/",
-      githubLink: "https://github.com/TreasureUzoma/secretsenderweb/",
-    },
-    {
-      title: "StreakMaster PWA",
-      description:
-        "Cloud-based habit tracker and streak & progress counter web app",
+        "Cloud-based full-stack habit tracker and streak & progress counter web app",
       tags: ["ReactJs", "JavaScript", "TailwindCSS", "Firebase"],
-      previewLink: "https://streakmaster.vercel.app",
-    },
-    {
-      title: "Paddy AI",
-      description:
-        "Gemini powered AI Chatbot for task management and assistance.",
-      tags: ["ReactJS", "TailwindCSS", "Gemeni API"],
-      previewLink: "https://mypaddy.vercel.app/",
-      githubLink: "https://github.com/TreasureUzoma/MyPaddy",
+      previewLink: "https://streakmastersite.vercel.app",
     },
     {
       title: "LinkLite - Link Shortener",
@@ -69,6 +46,14 @@ const Portfolio = () => {
       tags: ["ReactJs", "TailwindCSS", "TinyUrlAPI", "CSS"],
       previewLink: "https://link-lite-eta.vercel.app/",
       githubLink: "https://github.com/TreasureUzoma/LinkLite"
+    },
+    {
+      title: "Paddy AI",
+      description:
+        "Gemini powered AI Chatbot for task management and assistance.",
+      tags: ["ReactJS", "TailwindCSS", "Gemeni API"],
+      previewLink: "https://mypaddy.vercel.app/",
+      githubLink: "https://github.com/TreasureUzoma/MyPaddy",
     },
     {
       title: "GitHub Roast AI",
@@ -83,13 +68,6 @@ const Portfolio = () => {
       tags: ["NextJS", "TypeScript", "Gemini API", "TailwindCSS"],
       previewLink: "https://tastreesclone.vercel.app",
       githubLink: "https://github.com/TreasureUzoma/tastreesClone",
-    },
-    {
-      title: "Code Byte",
-      description:
-        "A web design agency portfolio showcasing modern, responsive design expertise.",
-      tags: ["JavaScript", "FirebaseAPI", "CSS"],
-      previewLink: "https://codebytehq.web.app",
     },
     {
       title: "Password Generator",
