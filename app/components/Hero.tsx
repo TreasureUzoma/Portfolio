@@ -11,18 +11,18 @@ const Hero = () => {
             <h1 className="gradient_text text-[2.1rem] font-clash leading-[2.5rem] md:leading-[3.6rem] md:text-[3.5rem]">
               Creative <br className="md:hidden" /> Frontend Developer.
             </h1>
-            <div className="font-[400] mt-[2.5rem] font-rubik pr-5 text-sm">
+            <div className="font-[400] mt-[2rem] font-rubik pr-5 text-sm">
               <p className="gradient_text">
                 Crafting simple, beautiful, and intuitive digital experiences is
                 what I do best.
               </p>
-              <p className="gradient_text py-[1.8rem]">
+              <p className="gradient_text py-[1.6rem]">
                 With 3+ years of experience, I build seamless, enjoyable web
                 experiences for clients and businesses. Let’s make
                 something amazing together!
               </p>
             </div>
-            <div className="mt-[1.7rem] flex space-x-5">
+            <div className="flex space-x-5">
               <a
                 href="https://www.facebook.com/profile.php?id=100085862181551"
                 className="rounded-full border border-2 border-[#34afcb] hover:border-green hover:bg-green"

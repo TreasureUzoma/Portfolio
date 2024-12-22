@@ -12,15 +12,15 @@ const Portfolio = () => {
       title: "Eversub",
       description:
         "A full-stack VTU web app for paying bills and handling subscriptions effortlessly.",
-      tags: ["NextJs", "Typescript", "TailwindCSS", "Firebase", "API"],
+      tags: ["NextJs", "Typescript", "TailwindCSS", "Framer Motion", "Firebase", "API"],
       previewLink: "https://eversub.vercel.app/",
       githubLink: "https://github.com/TreasureUzoma/eversubsite/",
     },
     {
       title: "GapPay Website",
       description:
-        "Fintech landing page streamlining transactions with secure user-friendly interface.",
-      tags: ["CSS", "JavaScript"],
+        "Fintech landing page streamlining transactions with user-friendly interface.",
+      tags: ["NextJs", "Typescript", "TailwindCSS", "Framer Motion", "Node Mailer"],
       previewLink: "https://gappayfinance.vercel.app",
     },
     
@@ -36,7 +36,7 @@ const Portfolio = () => {
       title: "StreakMaster",
       description:
         "Cloud-based full-stack habit tracker and streak & progress counter web app",
-      tags: ["ReactJs", "JavaScript", "TailwindCSS", "Firebase"],
+      tags: ["ReactJs", "JavaScript", "TailwindCSS", "Framer Motion", "Firebase"],
       previewLink: "https://streakmastersite.vercel.app",
     },
     {
