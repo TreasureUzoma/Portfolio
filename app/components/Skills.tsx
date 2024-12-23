@@ -30,14 +30,14 @@ const Skills = () => {
             {skillsList.map((skill, index) => (
               <div
                 key={skill.name}
-                className="w-full border-[rgba(255,255,255,0.1)] rounded-xl flex items-center relative overflow-hidden p-4 bg-[#0a1c20] font-clash transition-all duration-300 text-[0.9rem] hover:scale-95 md:hover:scale-105 border-2"
+                className="w-full border-[rgba(255,255,255,0.1)] rounded-xl flex items-center relative overflow-hidden p-2 bg-[#0a1c20] font-clash transition-all duration-300 text-[0.9rem] hover:scale-95 md:hover:scale-105 border-2"
               >
-                <figure className="rounded-lg bg-[rgba(255,255,255,0.1)] w-10 h-10 mr-3 flex justify-center items-center">
+                <figure className="rounded-lg bg-[rgba(255,255,255,0.1)] w-12 h-12 mr-3 flex justify-center items-center">
                   <Image
                     src={skill.image}
                     alt={skill.name}
-                    width={29}
-                    height={29}
+                    width={34}
+                    height={34}
                     className="rounded"
                   />
                 </figure>
