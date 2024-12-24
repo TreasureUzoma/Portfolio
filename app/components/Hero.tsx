@@ -5,7 +5,7 @@ import HeroImage from "./mainComponents/HeroImage";
 
 const Hero = () => {
     return (
-      <header className="my-[5.3rem] flex items-center justify-center min-h-screen relative overflow-hidden w-full lg:min-h-[100vh]">
+      <header className="my-[5.1rem] md:my-[5.3rem] flex items-center justify-center min-h-screen relative overflow-hidden w-full lg:min-h-[100vh]">
         <div className="my_fixed_width md:flex justify-between items-center sm:pr-2 md:px-3">
           <div className="md:w-[52%] lg:w-[60%]">
             <h1 className="gradient_text text-[2.1rem] font-clash leading-[2.5rem] md:leading-[3.6rem] md:text-[3.5rem]">
