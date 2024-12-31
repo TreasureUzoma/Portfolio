@@ -53,7 +53,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="text-white font-bold text-sm mt-[5rem] my-[2rem]">
-              <p>&copy; twentytwentyfour</p>
+              <p>&copy; twentytwentyfive</p>
               <p className="mt-4">Treasure Uzoma</p>
             </div>
           </div>
