@@ -9,6 +9,13 @@ const Portfolio = () => {
 
   const projects = [
     {
+      title: "Analytix - Landing Page",
+      description:
+        "A full-stack web app for getting real-time analytics from websites and apps.",
+      tags: ["NextJs", "Typescript", "TailwindCSS", "Framer Motion", "Mongoose", "NextAuth"],
+      previewLink: "https://analytixapp.vercel.app/",
+    },
+    {
       title: "Eversub",
       description:
         "A full-stack VTU web app for paying bills and handling subscriptions effortlessly.",
